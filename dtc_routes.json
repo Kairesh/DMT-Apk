@@ -1,22 +1,43 @@
 {
-  "version": 2,
+  "version": 3,
   "lastUpdated": "2026-09-28",
   "provider": "Delhi Transport Corporation (DTC) & DIMTS Open Transit Data",
   "fares": {
     "nonAc": {
       "slabs": [
-        { "maxKm": 4, "fare": 5 },
-        { "maxKm": 10, "fare": 10 },
-        { "maxKm": 999, "fare": 15 }
+        {
+          "maxKm": 4,
+          "fare": 5
+        },
+        {
+          "maxKm": 10,
+          "fare": 10
+        },
+        {
+          "maxKm": 999,
+          "fare": 15
+        }
       ],
       "dailyPass": 40
     },
     "ac": {
       "slabs": [
-        { "maxKm": 4, "fare": 10 },
-        { "maxKm": 8, "fare": 15 },
-        { "maxKm": 12, "fare": 20 },
-        { "maxKm": 999, "fare": 25 }
+        {
+          "maxKm": 4,
+          "fare": 10
+        },
+        {
+          "maxKm": 8,
+          "fare": 15
+        },
+        {
+          "maxKm": 12,
+          "fare": 20
+        },
+        {
+          "maxKm": 999,
+          "fare": 25
+        }
       ],
       "dailyPass": 50
     },
@@ -29,6 +50,184 @@
     "digitalDiscount": "10% discount on fare when purchasing contactless e-ticket via WhatsApp (+91 88607 77999) or One Delhi app."
   },
   "routes": [
+    {
+      "routeNo": "211",
+      "type": "DTC Standard & AC",
+      "category": "Trans-Yamuna Corridor",
+      "from": "Mori Gate Terminal",
+      "to": "Mayur Vihar Phase-3 Church / Paper Market",
+      "fromHindi": "मोरी गेट टर्मिनल",
+      "toHindi": "मयूर विहार फेज-3 चर्च / पेपर मार्केट",
+      "firstBus": "04:32 AM",
+      "lastBus": "11:17 PM",
+      "frequency": "Every 5–15 mins",
+      "peakFrequency": "Every 1–17 min (8–10 AM, 5–7 PM)",
+      "offPeakFrequency": "Every 1–32 min",
+      "tripsDay": 159,
+      "estTravelTime": "1h 12m",
+      "distanceKm": 22.8,
+      "fareNonAc": 15,
+      "fareAc": 25,
+      "depots": [
+        "Hasanpur Depot"
+      ],
+      "stops": [
+        {
+          "name": "Mori Gate Terminal",
+          "hindi": "मोरी गेट टर्मिनल",
+          "metro": "Kashmere Gate"
+        },
+        {
+          "name": "ISBT Nityanand Marg",
+          "hindi": "आईएसबीटी नित्यानंद मार्ग"
+        },
+        {
+          "name": "ISBT Bridge",
+          "hindi": "आईएसबीटी ब्रिज"
+        },
+        {
+          "name": "Shastri Park Metro Depot",
+          "hindi": "शास्त्री पार्क मेट्रो डिपो",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Shyam Giri Mandir",
+          "hindi": "श्याम गिरि मंदिर"
+        },
+        {
+          "name": "Shastri Park GT Road",
+          "hindi": "शास्त्री पार्क जीटी रोड"
+        },
+        {
+          "name": "Dharampura GT Road",
+          "hindi": "धरमपुरा जीटी रोड"
+        },
+        {
+          "name": "Seelampur Metro Station",
+          "hindi": "सीलमपुर मेट्रो स्टेशन",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Welcome / Seelampur Petrol Pump",
+          "hindi": "वेलकम / सीलमपुर पेट्रोल पंप"
+        },
+        {
+          "name": "Welcome Metro Station",
+          "hindi": "वेलकम मेट्रो स्टेशन",
+          "metro": "Red / Pink Line"
+        },
+        {
+          "name": "Kanti Nagar Extension / Bihari Colony",
+          "hindi": "कांति नगर एक्सटेंशन"
+        },
+        {
+          "name": "Jharkhandi",
+          "hindi": "झारखंडी"
+        },
+        {
+          "name": "East Azad Nagar",
+          "hindi": "ईस्ट आज़ाद नगर",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Swaran Cinema",
+          "hindi": "स्वर्ण सिनेमा"
+        },
+        {
+          "name": "East Krishna Nagar",
+          "hindi": "ईस्ट कृष्णा नगर",
+          "metro": "Krishna Nagar"
+        },
+        {
+          "name": "Hans Apartment",
+          "hindi": "हंस अपार्टमेंट"
+        },
+        {
+          "name": "Arjun Nagar",
+          "hindi": "अर्जुन नगर"
+        },
+        {
+          "name": "Radheypuri",
+          "hindi": "राधेपुरी"
+        },
+        {
+          "name": "Jagatpuri A Block",
+          "hindi": "जगतपुरी ए ब्लॉक"
+        },
+        {
+          "name": "Jagatpuri F Block",
+          "hindi": "जगतपुरी एफ ब्लॉक"
+        },
+        {
+          "name": "Hasanpur Depot",
+          "hindi": "हसनपुर डिपो"
+        },
+        {
+          "name": "Hasanpur Village",
+          "hindi": "हसनपुर गांव"
+        },
+        {
+          "name": "Gazipur Village",
+          "hindi": "गाज़ीपुर गांव"
+        },
+        {
+          "name": "Ghazipur SFS Flat / NH24 Crossing",
+          "hindi": "गाज़ीपुर एसएफएस फ्लैट"
+        },
+        {
+          "name": "National Highway 24 Crossing",
+          "hindi": "एनएच-24 क्रॉसिंग"
+        },
+        {
+          "name": "Gazi Pur DDA Flats",
+          "hindi": "गाज़ीपुर डीडीए फ्लैट्स"
+        },
+        {
+          "name": "Gazipur Dairy Farm",
+          "hindi": "गाज़ीपुर डेयरी फार्म"
+        },
+        {
+          "name": "Kalyan Puri X-ing",
+          "hindi": "कल्याण पुरी क्रॉसिंग"
+        },
+        {
+          "name": "Kondli / Kondali Old",
+          "hindi": "कोंडली ओल्ड"
+        },
+        {
+          "name": "Dallu Pura",
+          "hindi": "दल्लू पुरा"
+        },
+        {
+          "name": "Mayur Vihar Phase III Crossing",
+          "hindi": "मयूर विहार फेज 3 क्रॉसिंग"
+        },
+        {
+          "name": "New Kondli A-1 Crossing",
+          "hindi": "न्यू कोंडली ए-1 क्रॉसिंग"
+        },
+        {
+          "name": "Bharti Public School",
+          "hindi": "भारती पब्लिक स्कूल"
+        },
+        {
+          "name": "Mayur Vihar Phase III A1 Block",
+          "hindi": "मयूर विहार फेज 3 ए1"
+        },
+        {
+          "name": "CRPF Camp (Mayur Vihar Phase-3)",
+          "hindi": "सीआरपीएफ कैंप"
+        },
+        {
+          "name": "Khora More / Mayur Vihar Phase III Xing",
+          "hindi": "खोड़ा मोड़"
+        },
+        {
+          "name": "Mayur Vihar Phase-3 Church / Paper Market",
+          "hindi": "मयूर विहार फेज-3 चर्च"
+        }
+      ]
+    },
     {
       "routeNo": "534",
       "type": "AC Electric & Non-AC",
@@ -43,38 +242,146 @@
       "distanceKm": 31.5,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Anand Vihar Depot", "Kalkaji Depot"],
+      "depots": [
+        "Anand Vihar Depot",
+        "Kalkaji Depot"
+      ],
       "stops": [
-        { "name": "Anand Vihar ISBT", "hindi": "आनंद विहार आईएसबीटी", "metro": "Blue / Pink Line" },
-        { "name": "Maharajpur Check Post", "hindi": "महाराजपुर चेक पोस्ट" },
-        { "name": "Gazipur Depot", "hindi": "गाज़ीपुर डिपो" },
-        { "name": "Hassanpur Depot", "hindi": "हसनपुर डिपो" },
-        { "name": "Preet Vihar", "hindi": "प्रीत विहार", "metro": "Blue Line" },
-        { "name": "Nirman Vihar", "hindi": "निर्माण विहार", "metro": "Blue Line" },
-        { "name": "Shakarpur", "hindi": "शकरपुर" },
-        { "name": "Laxmi Nagar Metro", "hindi": "लक्ष्मी नगर मेट्रो", "metro": "Blue Line" },
-        { "name": "Rainy Well", "hindi": "रेनी वेल" },
-        { "name": "ITO", "hindi": "आईटीओ", "metro": "Violet Line" },
-        { "name": "Supreme Court / Pragati Maidan", "hindi": "सुप्रीम कोर्ट / प्रगति मैदान", "metro": "Blue Line" },
-        { "name": "National Stadium", "hindi": "नेशनल स्टेडियम" },
-        { "name": "Sundar Nagar", "hindi": "सुंदर नगर" },
-        { "name": "Hazrat Nizamuddin Dargah", "hindi": "हज़रत निज़ामुद्दीन दरगाह", "metro": "Pink Line" },
-        { "name": "Ashram Chowk", "hindi": "आश्रम चौक", "metro": "Pink Line" },
-        { "name": "Srinivaspuri", "hindi": "श्रीनिवासपुरी" },
-        { "name": "Lajpat Nagar Ring Road", "hindi": "लाजपत नगर", "metro": "Pink / Violet Line" },
-        { "name": "Gupta Market", "hindi": "गुप्ता मार्केट" },
-        { "name": "South Extension", "hindi": "साउथ एक्सटेंशन", "metro": "Pink Line" },
-        { "name": "AIIMS", "hindi": "एम्स", "metro": "Yellow Line" },
-        { "name": "Safdarjung Hospital", "hindi": "सफदरजंग अस्पताल" },
-        { "name": "Green Park", "hindi": "ग्रीन पार्क", "metro": "Yellow Line" },
-        { "name": "Hauz Khas", "hindi": "हौज खास", "metro": "Yellow / Magenta Line" },
-        { "name": "Kallu Sarai", "hindi": "कालू सराय" },
-        { "name": "IIT Gate", "hindi": "आईआईटी गेट", "metro": "Magenta Line" },
-        { "name": "Adchini", "hindi": "अधचीनी" },
-        { "name": "TB Hospital", "hindi": "टीबी अस्पताल" },
-        { "name": "Lado Sarai Crossing", "hindi": "लाडो सराय क्रॉसिंग" },
-        { "name": "Qutub Minar Metro", "hindi": "क़ुतुब मीनार मेट्रो", "metro": "Yellow Line" },
-        { "name": "Mehrauli Terminal", "hindi": "महरौली टर्मिनल" }
+        {
+          "name": "Anand Vihar ISBT",
+          "hindi": "आनंद विहार आईएसबीटी",
+          "metro": "Blue / Pink Line"
+        },
+        {
+          "name": "Maharajpur Check Post",
+          "hindi": "महाराजपुर चेक पोस्ट"
+        },
+        {
+          "name": "Gazipur Depot",
+          "hindi": "गाज़ीपुर डिपो"
+        },
+        {
+          "name": "Hassanpur Depot",
+          "hindi": "हसनपुर डिपो"
+        },
+        {
+          "name": "Preet Vihar",
+          "hindi": "प्रीत विहार",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Nirman Vihar",
+          "hindi": "निर्माण विहार",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Shakarpur",
+          "hindi": "शकरपुर"
+        },
+        {
+          "name": "Laxmi Nagar Metro",
+          "hindi": "लक्ष्मी नगर मेट्रो",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Rainy Well",
+          "hindi": "रेनी वेल"
+        },
+        {
+          "name": "ITO",
+          "hindi": "आईटीओ",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Supreme Court / Pragati Maidan",
+          "hindi": "सुप्रीम कोर्ट / प्रगति मैदान",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "National Stadium",
+          "hindi": "नेशनल स्टेडियम"
+        },
+        {
+          "name": "Sundar Nagar",
+          "hindi": "सुंदर नगर"
+        },
+        {
+          "name": "Hazrat Nizamuddin Dargah",
+          "hindi": "हज़रत निज़ामुद्दीन दरगाह",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Ashram Chowk",
+          "hindi": "आश्रम चौक",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Srinivaspuri",
+          "hindi": "श्रीनिवासपुरी"
+        },
+        {
+          "name": "Lajpat Nagar Ring Road",
+          "hindi": "लाजपत नगर",
+          "metro": "Pink / Violet Line"
+        },
+        {
+          "name": "Gupta Market",
+          "hindi": "गुप्ता मार्केट"
+        },
+        {
+          "name": "South Extension",
+          "hindi": "साउथ एक्सटेंशन",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "AIIMS",
+          "hindi": "एम्स",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Safdarjung Hospital",
+          "hindi": "सफदरजंग अस्पताल"
+        },
+        {
+          "name": "Green Park",
+          "hindi": "ग्रीन पार्क",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Hauz Khas",
+          "hindi": "हौज खास",
+          "metro": "Yellow / Magenta Line"
+        },
+        {
+          "name": "Kallu Sarai",
+          "hindi": "कालू सराय"
+        },
+        {
+          "name": "IIT Gate",
+          "hindi": "आईआईटी गेट",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "Adchini",
+          "hindi": "अधचीनी"
+        },
+        {
+          "name": "TB Hospital",
+          "hindi": "टीबी अस्पताल"
+        },
+        {
+          "name": "Lado Sarai Crossing",
+          "hindi": "लाडो सराय क्रॉसिंग"
+        },
+        {
+          "name": "Qutub Minar Metro",
+          "hindi": "क़ुतुब मीनार मेट्रो",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Mehrauli Terminal",
+          "hindi": "महरौली टर्मिनल"
+        }
       ]
     },
     {
@@ -91,35 +398,132 @@
       "distanceKm": 26.8,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Shahdara Depot", "Vasant Vihar Depot"],
+      "depots": [
+        "Shahdara Depot",
+        "Vasant Vihar Depot"
+      ],
       "stops": [
-        { "name": "Shahdara Terminal", "hindi": "शाहदरा टर्मिनल", "metro": "Red Line" },
-        { "name": "Kanti Nagar", "hindi": "कांति नगर" },
-        { "name": "Geeta Colony Crossing", "hindi": "गीता कॉलोनी क्रॉसिंग" },
-        { "name": "Shanti Van", "hindi": "शांति वन" },
-        { "name": "Red Fort", "hindi": "लाल क़िला", "metro": "Violet Line" },
-        { "name": "Delhi Gate", "hindi": "दिल्ली गेट", "metro": "Violet Line" },
-        { "name": "ITO", "hindi": "आईटीओ", "metro": "Violet Line" },
-        { "name": "Supreme Court", "hindi": "सुप्रीम कोर्ट", "metro": "Blue Line" },
-        { "name": "Patiala House Court", "hindi": "पटियाला हाउस कोर्ट" },
-        { "name": "India Gate Hexagon", "hindi": "इंडिया गेट" },
-        { "name": "National Museum", "hindi": "राष्ट्रीय संग्रहालय", "metro": "Yellow Line" },
-        { "name": "Khan Market", "hindi": "खान मार्केट", "metro": "Violet Line" },
-        { "name": "Sujan Singh Park", "hindi": "सुजान सिंह पार्क" },
-        { "name": "Lodhi Colony", "hindi": "लोधी कॉलोनी" },
-        { "name": "JLN Stadium Gate", "hindi": "जेएलएन स्टेडियम", "metro": "Violet Line" },
-        { "name": "Sewa Nagar", "hindi": "सेवा नगर" },
-        { "name": "Defence Colony Flyover", "hindi": "डिफेंस कॉलोनी" },
-        { "name": "AIIMS", "hindi": "एम्स", "metro": "Yellow Line" },
-        { "name": "Safdarjung Hospital", "hindi": "सफदरजंग अस्पताल" },
-        { "name": "Nauji Nagar", "hindi": "नौरोजी नगर" },
-        { "name": "Bhikaji Cama Place", "hindi": "भीकाजी कामा प्लेस", "metro": "Pink Line" },
-        { "name": "Mohammadpur", "hindi": "मोहम्मदपुर" },
-        { "name": "R.K. Puram Sector 1", "hindi": "आर.के. पुरम सेक्टर 1" },
-        { "name": "Moti Bagh Gurudwara", "hindi": "मोती बाग गुरुद्वारा", "metro": "Pink Line" },
-        { "name": "Munirka", "hindi": "मुनीरका", "metro": "Magenta Line" },
-        { "name": "Vasant Vihar Depot", "hindi": "वसंत विहार डिपो", "metro": "Magenta Line" },
-        { "name": "CPWD Complex Vasant Vihar", "hindi": "सीपीडब्ल्यूडी कॉम्प्लेक्स वसंत विहार" }
+        {
+          "name": "Shahdara Terminal",
+          "hindi": "शाहदरा टर्मिनल",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Kanti Nagar",
+          "hindi": "कांति नगर"
+        },
+        {
+          "name": "Geeta Colony Crossing",
+          "hindi": "गीता कॉलोनी क्रॉसिंग"
+        },
+        {
+          "name": "Shanti Van",
+          "hindi": "शांति वन"
+        },
+        {
+          "name": "Red Fort",
+          "hindi": "लाल क़िला",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Delhi Gate",
+          "hindi": "दिल्ली गेट",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "ITO",
+          "hindi": "आईटीओ",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Supreme Court",
+          "hindi": "सुप्रीम कोर्ट",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Patiala House Court",
+          "hindi": "पटियाला हाउस कोर्ट"
+        },
+        {
+          "name": "India Gate Hexagon",
+          "hindi": "इंडिया गेट"
+        },
+        {
+          "name": "National Museum",
+          "hindi": "राष्ट्रीय संग्रहालय",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Khan Market",
+          "hindi": "खान मार्केट",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Sujan Singh Park",
+          "hindi": "सुजान सिंह पार्क"
+        },
+        {
+          "name": "Lodhi Colony",
+          "hindi": "लोधी कॉलोनी"
+        },
+        {
+          "name": "JLN Stadium Gate",
+          "hindi": "जेएलएन स्टेडियम",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Sewa Nagar",
+          "hindi": "सेवा नगर"
+        },
+        {
+          "name": "Defence Colony Flyover",
+          "hindi": "डिफेंस कॉलोनी"
+        },
+        {
+          "name": "AIIMS",
+          "hindi": "एम्स",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Safdarjung Hospital",
+          "hindi": "सफदरजंग अस्पताल"
+        },
+        {
+          "name": "Nauji Nagar",
+          "hindi": "नौरोजी नगर"
+        },
+        {
+          "name": "Bhikaji Cama Place",
+          "hindi": "भीकाजी कामा प्लेस",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Mohammadpur",
+          "hindi": "मोहम्मदपुर"
+        },
+        {
+          "name": "R.K. Puram Sector 1",
+          "hindi": "आर.के. पुरम सेक्टर 1"
+        },
+        {
+          "name": "Moti Bagh Gurudwara",
+          "hindi": "मोती बाग गुरुद्वारा",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Munirka",
+          "hindi": "मुनीरका",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "Vasant Vihar Depot",
+          "hindi": "वसंत विहार डिपो",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "CPWD Complex Vasant Vihar",
+          "hindi": "सीपीडब्ल्यूडी कॉम्प्लेक्स वसंत विहार"
+        }
       ]
     },
     {
@@ -133,33 +537,110 @@
       "firstBus": "05:15 AM",
       "lastBus": "10:45 PM",
       "frequency": "Every 10–12 mins",
-      "distanceKm": 32.0,
+      "distanceKm": 32,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Dichaon Kalan", "BBM Depot"],
+      "depots": [
+        "Dichaon Kalan",
+        "BBM Depot"
+      ],
       "stops": [
-        { "name": "Mori Gate Terminal", "hindi": "मोरी गेट टर्मिनल", "metro": "Kashmere Gate" },
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट बस अड्डा", "metro": "Red/Yellow/Violet Line" },
-        { "name": "Red Fort", "hindi": "लाल क़िला", "metro": "Violet Line" },
-        { "name": "Delhi Gate", "hindi": "दिल्ली गेट", "metro": "Violet Line" },
-        { "name": "LNJP Hospital", "hindi": "एलएनजेपी अस्पताल" },
-        { "name": "Ajmeri Gate", "hindi": "अजमेरी गेट", "metro": "New Delhi Yellow/Airport" },
-        { "name": "Super Bazar / Connaught Place", "hindi": "कनॉट प्लेस सुपर बाज़ार", "metro": "Rajiv Chowk" },
-        { "name": "Shivaji Stadium", "hindi": "शिवाजी स्टेडियम", "metro": "Airport Express" },
-        { "name": "Gole Market", "hindi": "गोल मार्केट" },
-        { "name": "Talkatora Stadium", "hindi": "तालकटोरा स्टेडियम" },
-        { "name": "11 Murti", "hindi": "ग्यारह मूर्ति" },
-        { "name": "Sardar Patel Marg", "hindi": "सरदार पटेल मार्ग" },
-        { "name": "Dhaula Kuan", "hindi": "धौला कुआँ", "metro": "Airport / Pink Line" },
-        { "name": "RR Hospital", "hindi": "आरआर अस्पताल" },
-        { "name": "Delhi Cantt", "hindi": "दिल्ली कैंट" },
-        { "name": "Prahladpur", "hindi": "प्रहलादपुर" },
-        { "name": "Mahipalpur Crossing", "hindi": "महिपालपुर क्रॉसिंग" },
-        { "name": "Rangpuri", "hindi": "रंगपुरी" },
-        { "name": "Shiv Murti NH-48", "hindi": "शिव मूर्ति एनएच-48" },
-        { "name": "Samalka", "hindi": "समालका" },
-        { "name": "Kapashera Crossing", "hindi": "कपासहेड़ा क्रॉसिंग" },
-        { "name": "Kapashera Border", "hindi": "कपासहेड़ा बॉर्डर" }
+        {
+          "name": "Mori Gate Terminal",
+          "hindi": "मोरी गेट टर्मिनल",
+          "metro": "Kashmere Gate"
+        },
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट बस अड्डा",
+          "metro": "Red/Yellow/Violet Line"
+        },
+        {
+          "name": "Red Fort",
+          "hindi": "लाल क़िला",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Delhi Gate",
+          "hindi": "दिल्ली गेट",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "LNJP Hospital",
+          "hindi": "एलएनजेपी अस्पताल"
+        },
+        {
+          "name": "Ajmeri Gate",
+          "hindi": "अजमेरी गेट",
+          "metro": "New Delhi Yellow/Airport"
+        },
+        {
+          "name": "Super Bazar / Connaught Place",
+          "hindi": "कनॉट प्लेस सुपर बाज़ार",
+          "metro": "Rajiv Chowk"
+        },
+        {
+          "name": "Shivaji Stadium",
+          "hindi": "शिवाजी स्टेडियम",
+          "metro": "Airport Express"
+        },
+        {
+          "name": "Gole Market",
+          "hindi": "गोल मार्केट"
+        },
+        {
+          "name": "Talkatora Stadium",
+          "hindi": "तालकटोरा स्टेडियम"
+        },
+        {
+          "name": "11 Murti",
+          "hindi": "ग्यारह मूर्ति"
+        },
+        {
+          "name": "Sardar Patel Marg",
+          "hindi": "सरदार पटेल मार्ग"
+        },
+        {
+          "name": "Dhaula Kuan",
+          "hindi": "धौला कुआँ",
+          "metro": "Airport / Pink Line"
+        },
+        {
+          "name": "RR Hospital",
+          "hindi": "आरआर अस्पताल"
+        },
+        {
+          "name": "Delhi Cantt",
+          "hindi": "दिल्ली कैंट"
+        },
+        {
+          "name": "Prahladpur",
+          "hindi": "प्रहलादपुर"
+        },
+        {
+          "name": "Mahipalpur Crossing",
+          "hindi": "महिपालपुर क्रॉसिंग"
+        },
+        {
+          "name": "Rangpuri",
+          "hindi": "रंगपुरी"
+        },
+        {
+          "name": "Shiv Murti NH-48",
+          "hindi": "शिव मूर्ति एनएच-48"
+        },
+        {
+          "name": "Samalka",
+          "hindi": "समालका"
+        },
+        {
+          "name": "Kapashera Crossing",
+          "hindi": "कपासहेड़ा क्रॉसिंग"
+        },
+        {
+          "name": "Kapashera Border",
+          "hindi": "कपासहेड़ा बॉर्डर"
+        }
       ]
     },
     {
@@ -176,29 +657,112 @@
       "distanceKm": 34.2,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Wazirpur Depot", "Nehru Place Depot"],
+      "depots": [
+        "Wazirpur Depot",
+        "Nehru Place Depot"
+      ],
       "stops": [
-        { "name": "Wazirpur Depot", "hindi": "वज़ीरपुर डिपो", "metro": "Pink Line" },
-        { "name": "Shalimar Bagh", "hindi": "शालीमार बाग", "metro": "Pink Line" },
-        { "name": "Azadpur Terminal", "hindi": "आज़ादपुर टर्मिनल", "metro": "Yellow / Pink Line" },
-        { "name": "Model Town II", "hindi": "मॉडल टाउन 2", "metro": "Yellow Line" },
-        { "name": "Kingsway Camp", "hindi": "किंग्सवे कैंप", "metro": "Guru Tegh Bahadur Nagar" },
-        { "name": "Mall Road", "hindi": "मॉल रोड", "metro": "Vishwa Vidyalaya" },
-        { "name": "Khyber Pass", "hindi": "खैबर पास", "metro": "Vidhan Sabha" },
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट", "metro": "Triple Interchange" },
-        { "name": "Shastri Park Metro", "hindi": "शास्त्री पार्क", "metro": "Red Line" },
-        { "name": "Seelampur", "hindi": "सीलमपुर", "metro": "Red Line" },
-        { "name": "Shyam Lal College", "hindi": "श्याम लाल कॉलेज" },
-        { "name": "Karkardooma Crossing", "hindi": "कड़कड़डूमा क्रॉसिंग", "metro": "Pink / Blue Line" },
-        { "name": "Anand Vihar ISBT", "hindi": "आनंद विहार", "metro": "Blue / Pink Line" },
-        { "name": "Ghazipur Depot", "hindi": "गाज़ीपुर डिपो" },
-        { "name": "Noida Mor", "hindi": "नोएडा मोड़", "metro": "Mayur Vihar" },
-        { "name": "Akshardham Temple", "hindi": "अक्षरधाम मंदिर", "metro": "Blue Line" },
-        { "name": "Sarai Kale Khan ISBT", "hindi": "सराय काले खां", "metro": "Pink Line / RRTS" },
-        { "name": "Hazrat Nizamuddin Railway Station", "hindi": "निज़ामुद्दीन स्टेशन" },
-        { "name": "Ashram Chowk", "hindi": "आश्रम चौक", "metro": "Pink Line" },
-        { "name": "Srinivaspuri", "hindi": "श्रीनिवासपुरी" },
-        { "name": "Nehru Place Terminal", "hindi": "नेहरू प्लेस टर्मिनल", "metro": "Violet / Magenta Line" }
+        {
+          "name": "Wazirpur Depot",
+          "hindi": "वज़ीरपुर डिपो",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Shalimar Bagh",
+          "hindi": "शालीमार बाग",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Azadpur Terminal",
+          "hindi": "आज़ादपुर टर्मिनल",
+          "metro": "Yellow / Pink Line"
+        },
+        {
+          "name": "Model Town II",
+          "hindi": "मॉडल टाउन 2",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Kingsway Camp",
+          "hindi": "किंग्सवे कैंप",
+          "metro": "Guru Tegh Bahadur Nagar"
+        },
+        {
+          "name": "Mall Road",
+          "hindi": "मॉल रोड",
+          "metro": "Vishwa Vidyalaya"
+        },
+        {
+          "name": "Khyber Pass",
+          "hindi": "खैबर पास",
+          "metro": "Vidhan Sabha"
+        },
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट",
+          "metro": "Triple Interchange"
+        },
+        {
+          "name": "Shastri Park Metro",
+          "hindi": "शास्त्री पार्क",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Seelampur",
+          "hindi": "सीलमपुर",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Shyam Lal College",
+          "hindi": "श्याम लाल कॉलेज"
+        },
+        {
+          "name": "Karkardooma Crossing",
+          "hindi": "कड़कड़डूमा क्रॉसिंग",
+          "metro": "Pink / Blue Line"
+        },
+        {
+          "name": "Anand Vihar ISBT",
+          "hindi": "आनंद विहार",
+          "metro": "Blue / Pink Line"
+        },
+        {
+          "name": "Ghazipur Depot",
+          "hindi": "गाज़ीपुर डिपो"
+        },
+        {
+          "name": "Noida Mor",
+          "hindi": "नोएडा मोड़",
+          "metro": "Mayur Vihar"
+        },
+        {
+          "name": "Akshardham Temple",
+          "hindi": "अक्षरधाम मंदिर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Sarai Kale Khan ISBT",
+          "hindi": "सराय काले खां",
+          "metro": "Pink Line / RRTS"
+        },
+        {
+          "name": "Hazrat Nizamuddin Railway Station",
+          "hindi": "निज़ामुद्दीन स्टेशन"
+        },
+        {
+          "name": "Ashram Chowk",
+          "hindi": "आश्रम चौक",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Srinivaspuri",
+          "hindi": "श्रीनिवासपुरी"
+        },
+        {
+          "name": "Nehru Place Terminal",
+          "hindi": "नेहरू प्लेस टर्मिनल",
+          "metro": "Violet / Magenta Line"
+        }
       ]
     },
     {
@@ -212,37 +776,138 @@
       "firstBus": "05:15 AM",
       "lastBus": "11:00 PM",
       "frequency": "Every 7–10 mins",
-      "distanceKm": 48.0,
+      "distanceKm": 48,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Uttam Nagar", "Keshopur", "Wazirpur"],
+      "depots": [
+        "Uttam Nagar",
+        "Keshopur",
+        "Wazirpur"
+      ],
       "stops": [
-        { "name": "Uttam Nagar Terminal", "hindi": "उत्तम नगर", "metro": "Blue Line" },
-        { "name": "Janakpuri West", "hindi": "जनकपुरी वेस्ट", "metro": "Blue / Magenta Line" },
-        { "name": "Tilak Nagar", "hindi": "तिलक नगर", "metro": "Blue Line" },
-        { "name": "Raja Garden", "hindi": "राजा गार्डन", "metro": "Rajouri Garden" },
-        { "name": "Punjabi Bagh Club", "hindi": "पंजाबी बाग", "metro": "Pink / Green Line" },
-        { "name": "Britania Chowk", "hindi": "ब्रिटानिया चौक" },
-        { "name": "Netaji Subhash Place", "hindi": "नेताजी सुभाष प्लेस", "metro": "Red / Pink Line" },
-        { "name": "Wazirpur Depot", "hindi": "वज़ीरपुर डिपो" },
-        { "name": "Azadpur", "hindi": "आज़ादपुर", "metro": "Yellow / Pink Line" },
-        { "name": "Majnu Ka Tila", "hindi": "मजनू का टीला" },
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट", "metro": "Interchange" },
-        { "name": "Geeta Colony", "hindi": "गीता कॉलोनी" },
-        { "name": "Akshardham", "hindi": "अक्षरधाम", "metro": "Blue Line" },
-        { "name": "Sarai Kale Khan", "hindi": "सराय काले खां", "metro": "Pink Line" },
-        { "name": "Ashram Flyover", "hindi": "आश्रम" },
-        { "name": "Lajpat Nagar Ring Road", "hindi": "लाजपत नगर", "metro": "Pink / Violet Line" },
-        { "name": "AIIMS Ring Road", "hindi": "एम्स रिंग रोड", "metro": "Yellow Line" },
-        { "name": "Safdarjung Hospital", "hindi": "सफदरजंग" },
-        { "name": "Moti Bagh", "hindi": "मोती बाग", "metro": "Pink Line" },
-        { "name": "Dhaula Kuan", "hindi": "धौला कुआँ", "metro": "Airport / Pink Line" },
-        { "name": "Naraina Vihar", "hindi": "नारायणा विहार", "metro": "Pink Line" },
-        { "name": "Mayapuri Depot", "hindi": "मायापुरी डिपो", "metro": "Pink Line" },
-        { "name": "Rajouri Garden", "hindi": "राजौरी गार्डन", "metro": "Blue / Pink Line" },
-        { "name": "Tagore Garden", "hindi": "टैगोर गार्डन", "metro": "Blue Line" },
-        { "name": "Subhash Nagar", "hindi": "सुभाष नगर", "metro": "Blue Line" },
-        { "name": "Uttam Nagar Terminal", "hindi": "उत्तम नगर टर्मिनल" }
+        {
+          "name": "Uttam Nagar Terminal",
+          "hindi": "उत्तम नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Janakpuri West",
+          "hindi": "जनकपुरी वेस्ट",
+          "metro": "Blue / Magenta Line"
+        },
+        {
+          "name": "Tilak Nagar",
+          "hindi": "तिलक नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Raja Garden",
+          "hindi": "राजा गार्डन",
+          "metro": "Rajouri Garden"
+        },
+        {
+          "name": "Punjabi Bagh Club",
+          "hindi": "पंजाबी बाग",
+          "metro": "Pink / Green Line"
+        },
+        {
+          "name": "Britania Chowk",
+          "hindi": "ब्रिटानिया चौक"
+        },
+        {
+          "name": "Netaji Subhash Place",
+          "hindi": "नेताजी सुभाष प्लेस",
+          "metro": "Red / Pink Line"
+        },
+        {
+          "name": "Wazirpur Depot",
+          "hindi": "वज़ीरपुर डिपो"
+        },
+        {
+          "name": "Azadpur",
+          "hindi": "आज़ादपुर",
+          "metro": "Yellow / Pink Line"
+        },
+        {
+          "name": "Majnu Ka Tila",
+          "hindi": "मजनू का टीला"
+        },
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट",
+          "metro": "Interchange"
+        },
+        {
+          "name": "Geeta Colony",
+          "hindi": "गीता कॉलोनी"
+        },
+        {
+          "name": "Akshardham",
+          "hindi": "अक्षरधाम",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Sarai Kale Khan",
+          "hindi": "सराय काले खां",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Ashram Flyover",
+          "hindi": "आश्रम"
+        },
+        {
+          "name": "Lajpat Nagar Ring Road",
+          "hindi": "लाजपत नगर",
+          "metro": "Pink / Violet Line"
+        },
+        {
+          "name": "AIIMS Ring Road",
+          "hindi": "एम्स रिंग रोड",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Safdarjung Hospital",
+          "hindi": "सफदरजंग"
+        },
+        {
+          "name": "Moti Bagh",
+          "hindi": "मोती बाग",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Dhaula Kuan",
+          "hindi": "धौला कुआँ",
+          "metro": "Airport / Pink Line"
+        },
+        {
+          "name": "Naraina Vihar",
+          "hindi": "नारायणा विहार",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Mayapuri Depot",
+          "hindi": "मायापुरी डिपो",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Rajouri Garden",
+          "hindi": "राजौरी गार्डन",
+          "metro": "Blue / Pink Line"
+        },
+        {
+          "name": "Tagore Garden",
+          "hindi": "टैगोर गार्डन",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Subhash Nagar",
+          "hindi": "सुभाष नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Uttam Nagar Terminal",
+          "hindi": "उत्तम नगर टर्मिनल"
+        }
       ]
     },
     {
@@ -259,25 +924,92 @@
       "distanceKm": 22.4,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Mangolpuri Depot", "BBM Depot"],
+      "depots": [
+        "Mangolpuri Depot",
+        "BBM Depot"
+      ],
       "stops": [
-        { "name": "Kamla Market", "hindi": "कमला मार्केट", "metro": "New Delhi Rly / Yellow Line" },
-        { "name": "Ajmeri Gate", "hindi": "अजमेरी गेट" },
-        { "name": "Super Bazar / CP", "hindi": "कनॉट प्लेस", "metro": "Rajiv Chowk" },
-        { "name": "Shivaji Stadium", "hindi": "शिवाजी स्टेडियम", "metro": "Airport Express" },
-        { "name": "Panchkuian Road", "hindi": "पंचकुइयां रोड", "metro": "RK Ashram Marg" },
-        { "name": "Karol Bagh Metro", "hindi": "करोल बाग", "metro": "Blue Line" },
-        { "name": "Rajendra Place", "hindi": "राजेंद्र प्लेस", "metro": "Blue Line" },
-        { "name": "Patel Nagar", "hindi": "पटेल नगर", "metro": "Blue Line" },
-        { "name": "Shadipur Depot", "hindi": "शादीपुर डिपो", "metro": "Blue Line" },
-        { "name": "Moti Nagar", "hindi": "मोती नगर", "metro": "Blue Line" },
-        { "name": "Punjabi Bagh Power House", "hindi": "पंजाबी बाग", "metro": "Pink Line" },
-        { "name": "Madipur Metro", "hindi": "मादीपुर", "metro": "Green Line" },
-        { "name": "Paschim Vihar", "hindi": "पश्चिम विहार", "metro": "Green Line" },
-        { "name": "Peeragarhi Chowk", "hindi": "पीरागढ़ी चौक", "metro": "Green / Magenta Line" },
-        { "name": "Mangolpuri B Block", "hindi": "मंगोलपुरी बी ब्लॉक" },
-        { "name": "Mangolpuri S Block", "hindi": "मंगोलपुरी एस ब्लॉक" },
-        { "name": "Mangolpuri Y Block", "hindi": "मंगोलपुरी वाई ब्लॉक" }
+        {
+          "name": "Kamla Market",
+          "hindi": "कमला मार्केट",
+          "metro": "New Delhi Rly / Yellow Line"
+        },
+        {
+          "name": "Ajmeri Gate",
+          "hindi": "अजमेरी गेट"
+        },
+        {
+          "name": "Super Bazar / CP",
+          "hindi": "कनॉट प्लेस",
+          "metro": "Rajiv Chowk"
+        },
+        {
+          "name": "Shivaji Stadium",
+          "hindi": "शिवाजी स्टेडियम",
+          "metro": "Airport Express"
+        },
+        {
+          "name": "Panchkuian Road",
+          "hindi": "पंचकुइयां रोड",
+          "metro": "RK Ashram Marg"
+        },
+        {
+          "name": "Karol Bagh Metro",
+          "hindi": "करोल बाग",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Rajendra Place",
+          "hindi": "राजेंद्र प्लेस",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Patel Nagar",
+          "hindi": "पटेल नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Shadipur Depot",
+          "hindi": "शादीपुर डिपो",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Moti Nagar",
+          "hindi": "मोती नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Punjabi Bagh Power House",
+          "hindi": "पंजाबी बाग",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Madipur Metro",
+          "hindi": "मादीपुर",
+          "metro": "Green Line"
+        },
+        {
+          "name": "Paschim Vihar",
+          "hindi": "पश्चिम विहार",
+          "metro": "Green Line"
+        },
+        {
+          "name": "Peeragarhi Chowk",
+          "hindi": "पीरागढ़ी चौक",
+          "metro": "Green / Magenta Line"
+        },
+        {
+          "name": "Mangolpuri B Block",
+          "hindi": "मंगोलपुरी बी ब्लॉक"
+        },
+        {
+          "name": "Mangolpuri S Block",
+          "hindi": "मंगोलपुरी एस ब्लॉक"
+        },
+        {
+          "name": "Mangolpuri Y Block",
+          "hindi": "मंगोलपुरी वाई ब्लॉक"
+        }
       ]
     },
     {
@@ -291,30 +1023,103 @@
       "firstBus": "05:15 AM",
       "lastBus": "10:30 PM",
       "frequency": "Every 12–15 mins",
-      "distanceKm": 34.0,
+      "distanceKm": 34,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Najafgarh Depot", "Nehru Place Depot"],
+      "depots": [
+        "Najafgarh Depot",
+        "Nehru Place Depot"
+      ],
       "stops": [
-        { "name": "Nehru Place Terminal", "hindi": "नेहरू प्लेस", "metro": "Violet / Magenta Line" },
-        { "name": "Kalkaji Mandir", "hindi": "कालकाजी मंदिर", "metro": "Violet / Magenta Line" },
-        { "name": "Govindpuri", "hindi": "गोविंदपुरी", "metro": "Violet Line" },
-        { "name": "Chirag Delhi", "hindi": "चिराग दिल्ली", "metro": "Magenta Line" },
-        { "name": "Panchsheel Club", "hindi": "पंचशील क्लब", "metro": "Magenta Line" },
-        { "name": "IIT Gate", "hindi": "आईआईटी गेट", "metro": "Magenta Line" },
-        { "name": "Munirka", "hindi": "मुनीरका", "metro": "Magenta Line" },
-        { "name": "R.K. Puram Sector 5", "hindi": "आर.के. पुरम सेक्टर 5" },
-        { "name": "Vasant Vihar", "hindi": "वसंत विहार", "metro": "Magenta Line" },
-        { "name": "Mahipalpur", "hindi": "महिपालपुर" },
-        { "name": "Palam Airport Crossing", "hindi": "पालम एयरपोर्ट क्रॉसिंग" },
-        { "name": "Palam Flyover", "hindi": "पालम फ्लाईओवर", "metro": "Magenta Line" },
-        { "name": "Dwarka Sector 1", "hindi": "द्वारका सेक्टर 1" },
-        { "name": "Dwarka Sector 6", "hindi": "द्वारका सेक्टर 6" },
-        { "name": "Dwarka Court", "hindi": "द्वारका कोर्ट", "metro": "Sector 10" },
-        { "name": "Dwarka Mor", "hindi": "द्वारका मोड़", "metro": "Blue Line" },
-        { "name": "Nawada", "hindi": "नवादा", "metro": "Blue Line" },
-        { "name": "Najafgarh Delhi Gate", "hindi": "नजफगढ़ दिल्ली गेट" },
-        { "name": "Najafgarh Terminal", "hindi": "नजफगढ़ टर्मिनल", "metro": "Grey Line" }
+        {
+          "name": "Nehru Place Terminal",
+          "hindi": "नेहरू प्लेस",
+          "metro": "Violet / Magenta Line"
+        },
+        {
+          "name": "Kalkaji Mandir",
+          "hindi": "कालकाजी मंदिर",
+          "metro": "Violet / Magenta Line"
+        },
+        {
+          "name": "Govindpuri",
+          "hindi": "गोविंदपुरी",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Chirag Delhi",
+          "hindi": "चिराग दिल्ली",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "Panchsheel Club",
+          "hindi": "पंचशील क्लब",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "IIT Gate",
+          "hindi": "आईआईटी गेट",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "Munirka",
+          "hindi": "मुनीरका",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "R.K. Puram Sector 5",
+          "hindi": "आर.के. पुरम सेक्टर 5"
+        },
+        {
+          "name": "Vasant Vihar",
+          "hindi": "वसंत विहार",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "Mahipalpur",
+          "hindi": "महिपालपुर"
+        },
+        {
+          "name": "Palam Airport Crossing",
+          "hindi": "पालम एयरपोर्ट क्रॉसिंग"
+        },
+        {
+          "name": "Palam Flyover",
+          "hindi": "पालम फ्लाईओवर",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "Dwarka Sector 1",
+          "hindi": "द्वारका सेक्टर 1"
+        },
+        {
+          "name": "Dwarka Sector 6",
+          "hindi": "द्वारका सेक्टर 6"
+        },
+        {
+          "name": "Dwarka Court",
+          "hindi": "द्वारका कोर्ट",
+          "metro": "Sector 10"
+        },
+        {
+          "name": "Dwarka Mor",
+          "hindi": "द्वारका मोड़",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Nawada",
+          "hindi": "नवादा",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Najafgarh Delhi Gate",
+          "hindi": "नजफगढ़ दिल्ली गेट"
+        },
+        {
+          "name": "Najafgarh Terminal",
+          "hindi": "नजफगढ़ टर्मिनल",
+          "metro": "Grey Line"
+        }
       ]
     },
     {
@@ -328,29 +1133,96 @@
       "firstBus": "05:30 AM",
       "lastBus": "11:00 PM",
       "frequency": "Every 8–10 mins",
-      "distanceKm": 21.0,
+      "distanceKm": 21,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Ambedkar Nagar Depot", "Kalkaji Depot"],
+      "depots": [
+        "Ambedkar Nagar Depot",
+        "Kalkaji Depot"
+      ],
       "stops": [
-        { "name": "Ambedkar Nagar Terminal", "hindi": "अम्बेडकर नगर टर्मिनल" },
-        { "name": "Khanpur Extension", "hindi": "खानपुर एक्सटेंशन" },
-        { "name": "Pushp Vihar", "hindi": "पुष्प विहार" },
-        { "name": "Saket Crossing", "hindi": "साकेत क्रॉसिंग" },
-        { "name": "Chirag Delhi", "hindi": "चिराग दिल्ली", "metro": "Magenta Line" },
-        { "name": "Krishi Vihar", "hindi": "कृषि विहार" },
-        { "name": "Moolchand Hospital", "hindi": "मूलचंद अस्पताल", "metro": "Violet Line" },
-        { "name": "Lajpat Nagar Ring Road", "hindi": "लाजपत नगर", "metro": "Pink / Violet Line" },
-        { "name": "Defence Colony", "hindi": "डिफेंस कॉलोनी" },
-        { "name": "Pant Nagar", "hindi": "पंत नगर" },
-        { "name": "Hazrat Nizamuddin", "hindi": "निज़ामुद्दीन", "metro": "Pink Line" },
-        { "name": "Pragati Maidan", "hindi": "प्रगति मैदान", "metro": "Blue Line" },
-        { "name": "ITO", "hindi": "आईटीओ", "metro": "Violet Line" },
-        { "name": "Delhi Gate", "hindi": "दिल्ली गेट", "metro": "Violet Line" },
-        { "name": "Jama Masjid", "hindi": "जामा मस्जिद", "metro": "Violet Line" },
-        { "name": "Red Fort", "hindi": "लाल क़िला", "metro": "Violet Line" },
-        { "name": "Kashmere Gate / Peeli Kothi", "hindi": "पीली कोठी" },
-        { "name": "Old Delhi Railway Station", "hindi": "पुरानी दिल्ली रेलवे स्टेशन", "metro": "Chandni Chowk Yellow Line" }
+        {
+          "name": "Ambedkar Nagar Terminal",
+          "hindi": "अम्बेडकर नगर टर्मिनल"
+        },
+        {
+          "name": "Khanpur Extension",
+          "hindi": "खानपुर एक्सटेंशन"
+        },
+        {
+          "name": "Pushp Vihar",
+          "hindi": "पुष्प विहार"
+        },
+        {
+          "name": "Saket Crossing",
+          "hindi": "साकेत क्रॉसिंग"
+        },
+        {
+          "name": "Chirag Delhi",
+          "hindi": "चिराग दिल्ली",
+          "metro": "Magenta Line"
+        },
+        {
+          "name": "Krishi Vihar",
+          "hindi": "कृषि विहार"
+        },
+        {
+          "name": "Moolchand Hospital",
+          "hindi": "मूलचंद अस्पताल",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Lajpat Nagar Ring Road",
+          "hindi": "लाजपत नगर",
+          "metro": "Pink / Violet Line"
+        },
+        {
+          "name": "Defence Colony",
+          "hindi": "डिफेंस कॉलोनी"
+        },
+        {
+          "name": "Pant Nagar",
+          "hindi": "पंत नगर"
+        },
+        {
+          "name": "Hazrat Nizamuddin",
+          "hindi": "निज़ामुद्दीन",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Pragati Maidan",
+          "hindi": "प्रगति मैदान",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "ITO",
+          "hindi": "आईटीओ",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Delhi Gate",
+          "hindi": "दिल्ली गेट",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Jama Masjid",
+          "hindi": "जामा मस्जिद",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Red Fort",
+          "hindi": "लाल क़िला",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Kashmere Gate / Peeli Kothi",
+          "hindi": "पीली कोठी"
+        },
+        {
+          "name": "Old Delhi Railway Station",
+          "hindi": "पुरानी दिल्ली रेलवे स्टेशन",
+          "metro": "Chandni Chowk Yellow Line"
+        }
       ]
     },
     {
@@ -367,33 +1239,128 @@
       "distanceKm": 24.5,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Mehrauli Depot", "BBM Depot"],
+      "depots": [
+        "Mehrauli Depot",
+        "BBM Depot"
+      ],
       "stops": [
-        { "name": "Mehrauli Terminal", "hindi": "महरौली टर्मिनल" },
-        { "name": "Qutub Minar", "hindi": "क़ुतुब मीनार", "metro": "Yellow Line" },
-        { "name": "Lado Sarai Crossing", "hindi": "लाडो सराय" },
-        { "name": "Saket Metro", "hindi": "साकेत मेट्रो", "metro": "Yellow Line" },
-        { "name": "Malviya Nagar", "hindi": "मालवीय नगर", "metro": "Yellow Line" },
-        { "name": "Hauz Khas", "hindi": "हौज खास", "metro": "Yellow / Magenta Line" },
-        { "name": "Green Park", "hindi": "ग्रीन पार्क", "metro": "Yellow Line" },
-        { "name": "AIIMS", "hindi": "एम्स", "metro": "Yellow Line" },
-        { "name": "INA Colony / Dilli Haat", "hindi": "आईएनए / दिल्ली हाट", "metro": "Yellow / Pink Line" },
-        { "name": "Jor Bagh", "hindi": "जोर बाग", "metro": "Yellow Line" },
-        { "name": "Safdarjung Tomb", "hindi": "सफदरजंग मक़बरा" },
-        { "name": "Prithviraj Road", "hindi": "पृथ्वीराज रोड" },
-        { "name": "Claridges Hotel", "hindi": "क्लेरिजेस होटल" },
-        { "name": "Udyog Bhawan", "hindi": "उद्योग भवन", "metro": "Yellow Line" },
-        { "name": "Central Secretariat", "hindi": "केंद्रीय सचिवालय", "metro": "Yellow / Violet Line" },
-        { "name": "Patel Chowk", "hindi": "पटेल चौक", "metro": "Yellow Line" },
-        { "name": "Gurudwara Bangla Sahib", "hindi": "बंगला साहिब" },
-        { "name": "Palika Kendra / Connaught Place", "hindi": "कनॉट प्लेस", "metro": "Rajiv Chowk" },
-        { "name": "Super Bazar", "hindi": "सुपर बाज़ार" },
-        { "name": "New Delhi Railway Station", "hindi": "नई दिल्ली स्टेशन", "metro": "Yellow / Airport Line" },
-        { "name": "Kamla Market", "hindi": "कमला मार्केट" },
-        { "name": "Delhi Gate", "hindi": "दिल्ली गेट", "metro": "Violet Line" },
-        { "name": "Jama Masjid", "hindi": "जामा मस्जिद", "metro": "Violet Line" },
-        { "name": "Red Fort", "hindi": "लाल क़िला", "metro": "Violet Line" },
-        { "name": "Old Delhi Railway Station", "hindi": "पुरानी दिल्ली रेलवे स्टेशन", "metro": "Chandni Chowk" }
+        {
+          "name": "Mehrauli Terminal",
+          "hindi": "महरौली टर्मिनल"
+        },
+        {
+          "name": "Qutub Minar",
+          "hindi": "क़ुतुब मीनार",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Lado Sarai Crossing",
+          "hindi": "लाडो सराय"
+        },
+        {
+          "name": "Saket Metro",
+          "hindi": "साकेत मेट्रो",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Malviya Nagar",
+          "hindi": "मालवीय नगर",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Hauz Khas",
+          "hindi": "हौज खास",
+          "metro": "Yellow / Magenta Line"
+        },
+        {
+          "name": "Green Park",
+          "hindi": "ग्रीन पार्क",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "AIIMS",
+          "hindi": "एम्स",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "INA Colony / Dilli Haat",
+          "hindi": "आईएनए / दिल्ली हाट",
+          "metro": "Yellow / Pink Line"
+        },
+        {
+          "name": "Jor Bagh",
+          "hindi": "जोर बाग",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Safdarjung Tomb",
+          "hindi": "सफदरजंग मक़बरा"
+        },
+        {
+          "name": "Prithviraj Road",
+          "hindi": "पृथ्वीराज रोड"
+        },
+        {
+          "name": "Claridges Hotel",
+          "hindi": "क्लेरिजेस होटल"
+        },
+        {
+          "name": "Udyog Bhawan",
+          "hindi": "उद्योग भवन",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Central Secretariat",
+          "hindi": "केंद्रीय सचिवालय",
+          "metro": "Yellow / Violet Line"
+        },
+        {
+          "name": "Patel Chowk",
+          "hindi": "पटेल चौक",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Gurudwara Bangla Sahib",
+          "hindi": "बंगला साहिब"
+        },
+        {
+          "name": "Palika Kendra / Connaught Place",
+          "hindi": "कनॉट प्लेस",
+          "metro": "Rajiv Chowk"
+        },
+        {
+          "name": "Super Bazar",
+          "hindi": "सुपर बाज़ार"
+        },
+        {
+          "name": "New Delhi Railway Station",
+          "hindi": "नई दिल्ली स्टेशन",
+          "metro": "Yellow / Airport Line"
+        },
+        {
+          "name": "Kamla Market",
+          "hindi": "कमला मार्केट"
+        },
+        {
+          "name": "Delhi Gate",
+          "hindi": "दिल्ली गेट",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Jama Masjid",
+          "hindi": "जामा मस्जिद",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Red Fort",
+          "hindi": "लाल क़िला",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Old Delhi Railway Station",
+          "hindi": "पुरानी दिल्ली रेलवे स्टेशन",
+          "metro": "Chandni Chowk"
+        }
       ]
     },
     {
@@ -407,28 +1374,93 @@
       "firstBus": "05:45 AM",
       "lastBus": "10:30 PM",
       "frequency": "Every 12–15 mins",
-      "distanceKm": 25.0,
+      "distanceKm": 25,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Kalkaji Depot", "Sarita Vihar Depot"],
+      "depots": [
+        "Kalkaji Depot",
+        "Sarita Vihar Depot"
+      ],
       "stops": [
-        { "name": "Badarpur Border", "hindi": "बदरपुर बॉर्डर", "metro": "Violet Line" },
-        { "name": "Tughlakabad Metro", "hindi": "तुग़लकाबाद", "metro": "Violet Line" },
-        { "name": "Mohan Cooperative", "hindi": "मोहन को-ऑपरेटिव", "metro": "Violet Line" },
-        { "name": "Sarita Vihar", "hindi": "सरिता विहार", "metro": "Violet Line" },
-        { "name": "Jasola Apollo Hospital", "hindi": "अपोलो अस्पताल", "metro": "Violet Line" },
-        { "name": "Harkesh Nagar", "hindi": "हरकेश नगर", "metro": "Violet Line" },
-        { "name": "Ishwar Nagar", "hindi": "ईश्वर नगर" },
-        { "name": "Ashram Chowk", "hindi": "आश्रम चौक", "metro": "Pink Line" },
-        { "name": "Srinivaspuri", "hindi": "श्रीनिवासपुरी" },
-        { "name": "Lajpat Nagar Ring Road", "hindi": "लाजपत नगर", "metro": "Pink / Violet Line" },
-        { "name": "South Extension", "hindi": "साउथ एक्सटेंशन", "metro": "Pink Line" },
-        { "name": "AIIMS", "hindi": "एम्स", "metro": "Yellow Line" },
-        { "name": "Safdarjung Hospital", "hindi": "सफदरजंग अस्पताल" },
-        { "name": "Nauji Nagar", "hindi": "नौरोजी नगर" },
-        { "name": "Bhikaji Cama Place", "hindi": "भीकाजी कामा प्लेस", "metro": "Pink Line" },
-        { "name": "Mohammadpur", "hindi": "मोहम्मदपुर" },
-        { "name": "R.K. Puram Sector 1", "hindi": "आर.के. पुरम सेक्टर 1" }
+        {
+          "name": "Badarpur Border",
+          "hindi": "बदरपुर बॉर्डर",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Tughlakabad Metro",
+          "hindi": "तुग़लकाबाद",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Mohan Cooperative",
+          "hindi": "मोहन को-ऑपरेटिव",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Sarita Vihar",
+          "hindi": "सरिता विहार",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Jasola Apollo Hospital",
+          "hindi": "अपोलो अस्पताल",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Harkesh Nagar",
+          "hindi": "हरकेश नगर",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Ishwar Nagar",
+          "hindi": "ईश्वर नगर"
+        },
+        {
+          "name": "Ashram Chowk",
+          "hindi": "आश्रम चौक",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Srinivaspuri",
+          "hindi": "श्रीनिवासपुरी"
+        },
+        {
+          "name": "Lajpat Nagar Ring Road",
+          "hindi": "लाजपत नगर",
+          "metro": "Pink / Violet Line"
+        },
+        {
+          "name": "South Extension",
+          "hindi": "साउथ एक्सटेंशन",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "AIIMS",
+          "hindi": "एम्स",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Safdarjung Hospital",
+          "hindi": "सफदरजंग अस्पताल"
+        },
+        {
+          "name": "Nauji Nagar",
+          "hindi": "नौरोजी नगर"
+        },
+        {
+          "name": "Bhikaji Cama Place",
+          "hindi": "भीकाजी कामा प्लेस",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Mohammadpur",
+          "hindi": "मोहम्मदपुर"
+        },
+        {
+          "name": "R.K. Puram Sector 1",
+          "hindi": "आर.के. पुरम सेक्टर 1"
+        }
       ]
     },
     {
@@ -445,21 +1477,71 @@
       "distanceKm": 29.8,
       "fareNonAc": 25,
       "fareAc": 50,
-      "depots": ["BBM Depot", "Catering to Airport"],
+      "depots": [
+        "BBM Depot",
+        "Catering to Airport"
+      ],
       "stops": [
-        { "name": "Kashmere Gate ISBT", "hindi": "कश्मीरी गेट", "metro": "Triple Interchange" },
-        { "name": "Mori Gate", "hindi": "मोरी गेट" },
-        { "name": "Red Fort", "hindi": "लाल क़िला", "metro": "Violet Line" },
-        { "name": "Delhi Gate", "hindi": "दिल्ली गेट", "metro": "Violet Line" },
-        { "name": "New Delhi Railway Station (Ajmeri Gate)", "hindi": "नई दिल्ली रेलवे स्टेशन", "metro": "Yellow / Airport Line" },
-        { "name": "Connaught Place (Super Bazar)", "hindi": "कनॉट प्लेस", "metro": "Rajiv Chowk" },
-        { "name": "Talkatora Stadium", "hindi": "तालकटोरा स्टेडियम" },
-        { "name": "Dhaula Kuan", "hindi": "धौला कुआँ", "metro": "Airport / Pink Line" },
-        { "name": "Mahipalpur Bypass", "hindi": "महिपालपुर बाईपास" },
-        { "name": "Aerocity Metro Station", "hindi": "एरोसिटी मेट्रो", "metro": "Airport Express" },
-        { "name": "IGI Airport Cargo", "hindi": "आईजीआई कार्गो" },
-        { "name": "IGI Airport Terminal 2", "hindi": "आईजीआई एयरपोर्ट टी2" },
-        { "name": "IGI Airport Terminal 3 Departures", "hindi": "आईजीआई एयरपोर्ट टी3", "metro": "Airport Express Line" }
+        {
+          "name": "Kashmere Gate ISBT",
+          "hindi": "कश्मीरी गेट",
+          "metro": "Triple Interchange"
+        },
+        {
+          "name": "Mori Gate",
+          "hindi": "मोरी गेट"
+        },
+        {
+          "name": "Red Fort",
+          "hindi": "लाल क़िला",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Delhi Gate",
+          "hindi": "दिल्ली गेट",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "New Delhi Railway Station (Ajmeri Gate)",
+          "hindi": "नई दिल्ली रेलवे स्टेशन",
+          "metro": "Yellow / Airport Line"
+        },
+        {
+          "name": "Connaught Place (Super Bazar)",
+          "hindi": "कनॉट प्लेस",
+          "metro": "Rajiv Chowk"
+        },
+        {
+          "name": "Talkatora Stadium",
+          "hindi": "तालकटोरा स्टेडियम"
+        },
+        {
+          "name": "Dhaula Kuan",
+          "hindi": "धौला कुआँ",
+          "metro": "Airport / Pink Line"
+        },
+        {
+          "name": "Mahipalpur Bypass",
+          "hindi": "महिपालपुर बाईपास"
+        },
+        {
+          "name": "Aerocity Metro Station",
+          "hindi": "एरोसिटी मेट्रो",
+          "metro": "Airport Express"
+        },
+        {
+          "name": "IGI Airport Cargo",
+          "hindi": "आईजीआई कार्गो"
+        },
+        {
+          "name": "IGI Airport Terminal 2",
+          "hindi": "आईजीआई एयरपोर्ट टी2"
+        },
+        {
+          "name": "IGI Airport Terminal 3 Departures",
+          "hindi": "आईजीआई एयरपोर्ट टी3",
+          "metro": "Airport Express Line"
+        }
       ]
     },
     {
@@ -473,31 +1555,111 @@
       "firstBus": "05:00 AM",
       "lastBus": "11:00 PM",
       "frequency": "Every 6–10 mins",
-      "distanceKm": 28.0,
+      "distanceKm": 28,
       "fareNonAc": 10,
       "fareAc": 15,
-      "depots": ["Sanjay Gandhi Transport Nagar"],
+      "depots": [
+        "Sanjay Gandhi Transport Nagar"
+      ],
       "stops": [
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट आईएसबीटी", "metro": "Red/Yellow/Violet Line" },
-        { "name": "Shyama Prasad Mukherji Marg", "hindi": "श्यामा प्रसाद मुखर्जी मार्ग" },
-        { "name": "Civil Lines", "hindi": "सिविल लाइंस", "metro": "Yellow Line" },
-        { "name": "Kingsway Camp", "hindi": "किंग्सवे कैंप" },
-        { "name": "GTB Nagar Metro", "hindi": "गुरु तेग बहादुर नगर", "metro": "Yellow Line" },
-        { "name": "Model Town", "hindi": "मॉडल टाउन", "metro": "Yellow Line" },
-        { "name": "Azadpur", "hindi": "आज़ादपुर", "metro": "Yellow/Pink Line" },
-        { "name": "Shalimar Bagh", "hindi": "शालीमार बाग", "metro": "Pink Line" },
-        { "name": "Pitampura Metro", "hindi": "पीतमपुरा", "metro": "Red Line" },
-        { "name": "Netaji Subhash Place", "hindi": "नेताजी सुभाष प्लेस", "metro": "Red/Pink Line" },
-        { "name": "Punjabi Bagh", "hindi": "पंजाबी बाग", "metro": "Green Line" },
-        { "name": "Rajouri Garden", "hindi": "राजौरी गार्डन", "metro": "Blue/Pink Line" },
-        { "name": "Tagore Garden", "hindi": "टैगोर गार्डन", "metro": "Blue Line" },
-        { "name": "Tilak Nagar", "hindi": "तिलक नगर", "metro": "Blue Line" },
-        { "name": "Jhandewalan", "hindi": "झंडेवालान", "metro": "Green Line" },
-        { "name": "Patel Nagar", "hindi": "पटेल नगर", "metro": "Blue Line" },
-        { "name": "Karol Bagh", "hindi": "करोल बाग", "metro": "Blue Line" },
-        { "name": "RK Ashram Marg", "hindi": "आरके आश्रम मार्ग", "metro": "Blue Line" },
-        { "name": "Rajiv Chowk", "hindi": "राजीव चौक", "metro": "Blue/Yellow Line" },
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट आईएसबीटी", "metro": "Red/Yellow/Violet Line" }
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट आईएसबीटी",
+          "metro": "Red/Yellow/Violet Line"
+        },
+        {
+          "name": "Shyama Prasad Mukherji Marg",
+          "hindi": "श्यामा प्रसाद मुखर्जी मार्ग"
+        },
+        {
+          "name": "Civil Lines",
+          "hindi": "सिविल लाइंस",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Kingsway Camp",
+          "hindi": "किंग्सवे कैंप"
+        },
+        {
+          "name": "GTB Nagar Metro",
+          "hindi": "गुरु तेग बहादुर नगर",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Model Town",
+          "hindi": "मॉडल टाउन",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Azadpur",
+          "hindi": "आज़ादपुर",
+          "metro": "Yellow/Pink Line"
+        },
+        {
+          "name": "Shalimar Bagh",
+          "hindi": "शालीमार बाग",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Pitampura Metro",
+          "hindi": "पीतमपुरा",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Netaji Subhash Place",
+          "hindi": "नेताजी सुभाष प्लेस",
+          "metro": "Red/Pink Line"
+        },
+        {
+          "name": "Punjabi Bagh",
+          "hindi": "पंजाबी बाग",
+          "metro": "Green Line"
+        },
+        {
+          "name": "Rajouri Garden",
+          "hindi": "राजौरी गार्डन",
+          "metro": "Blue/Pink Line"
+        },
+        {
+          "name": "Tagore Garden",
+          "hindi": "टैगोर गार्डन",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Tilak Nagar",
+          "hindi": "तिलक नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Jhandewalan",
+          "hindi": "झंडेवालान",
+          "metro": "Green Line"
+        },
+        {
+          "name": "Patel Nagar",
+          "hindi": "पटेल नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Karol Bagh",
+          "hindi": "करोल बाग",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "RK Ashram Marg",
+          "hindi": "आरके आश्रम मार्ग",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Rajiv Chowk",
+          "hindi": "राजीव चौक",
+          "metro": "Blue/Yellow Line"
+        },
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट आईएसबीटी",
+          "metro": "Red/Yellow/Violet Line"
+        }
       ]
     },
     {
@@ -514,23 +1676,79 @@
       "distanceKm": 22.5,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Rohini Depot"],
+      "depots": [
+        "Rohini Depot"
+      ],
       "stops": [
-        { "name": "Rohini Sector 3", "hindi": "रोहिणी सेक्टर 3" },
-        { "name": "Rohini West Metro", "hindi": "रोहिणी वेस्ट", "metro": "Red Line" },
-        { "name": "Rohini East Metro", "hindi": "रोहिणी ईस्ट", "metro": "Red Line" },
-        { "name": "Pitampura Metro", "hindi": "पीतमपुरा", "metro": "Red Line" },
-        { "name": "Kohat Enclave", "hindi": "कोहाट एन्क्लेव", "metro": "Red Line" },
-        { "name": "Netaji Subhash Place", "hindi": "नेताजी सुभाष प्लेस", "metro": "Red/Pink Line" },
-        { "name": "Inderlok Metro", "hindi": "इंदरलोक", "metro": "Red/Green Line" },
-        { "name": "Shastri Nagar", "hindi": "शास्त्री नगर" },
-        { "name": "Pratap Nagar", "hindi": "प्रताप नगर" },
-        { "name": "Tis Hazari", "hindi": "तीस हज़ारी" },
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट", "metro": "Triple Interchange" },
-        { "name": "Mori Gate", "hindi": "मोरी गेट" },
-        { "name": "Old Delhi Railway Station", "hindi": "पुरानी दिल्ली रेलवे स्टेशन" },
-        { "name": "Chandni Chowk", "hindi": "चांदनी चौक", "metro": "Yellow Line" },
-        { "name": "New Delhi Railway Station", "hindi": "नई दिल्ली रेलवे स्टेशन", "metro": "Yellow/Airport Line" }
+        {
+          "name": "Rohini Sector 3",
+          "hindi": "रोहिणी सेक्टर 3"
+        },
+        {
+          "name": "Rohini West Metro",
+          "hindi": "रोहिणी वेस्ट",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Rohini East Metro",
+          "hindi": "रोहिणी ईस्ट",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Pitampura Metro",
+          "hindi": "पीतमपुरा",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Kohat Enclave",
+          "hindi": "कोहाट एन्क्लेव",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Netaji Subhash Place",
+          "hindi": "नेताजी सुभाष प्लेस",
+          "metro": "Red/Pink Line"
+        },
+        {
+          "name": "Inderlok Metro",
+          "hindi": "इंदरलोक",
+          "metro": "Red/Green Line"
+        },
+        {
+          "name": "Shastri Nagar",
+          "hindi": "शास्त्री नगर"
+        },
+        {
+          "name": "Pratap Nagar",
+          "hindi": "प्रताप नगर"
+        },
+        {
+          "name": "Tis Hazari",
+          "hindi": "तीस हज़ारी"
+        },
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट",
+          "metro": "Triple Interchange"
+        },
+        {
+          "name": "Mori Gate",
+          "hindi": "मोरी गेट"
+        },
+        {
+          "name": "Old Delhi Railway Station",
+          "hindi": "पुरानी दिल्ली रेलवे स्टेशन"
+        },
+        {
+          "name": "Chandni Chowk",
+          "hindi": "चांदनी चौक",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "New Delhi Railway Station",
+          "hindi": "नई दिल्ली रेलवे स्टेशन",
+          "metro": "Yellow/Airport Line"
+        }
       ]
     },
     {
@@ -544,25 +1762,82 @@
       "firstBus": "05:45 AM",
       "lastBus": "10:00 PM",
       "frequency": "Every 12–18 mins",
-      "distanceKm": 20.0,
+      "distanceKm": 20,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Dwarka Depot"],
+      "depots": [
+        "Dwarka Depot"
+      ],
       "stops": [
-        { "name": "Dwarka Sector 9", "hindi": "द्वारका सेक्टर 9", "metro": "Blue Line" },
-        { "name": "Dwarka Sector 10", "hindi": "द्वारका सेक्टर 10", "metro": "Blue Line" },
-        { "name": "Dwarka Sector 11", "hindi": "द्वारका सेक्टर 11", "metro": "Blue Line" },
-        { "name": "Dwarka Sector 12", "hindi": "द्वारका सेक्टर 12", "metro": "Blue Line" },
-        { "name": "Dwarka", "hindi": "द्वारका", "metro": "Blue/Grey Line" },
-        { "name": "Dwarka Mor", "hindi": "द्वारका मोड़", "metro": "Blue Line" },
-        { "name": "Nawada", "hindi": "नवादा", "metro": "Blue Line" },
-        { "name": "Uttam Nagar West", "hindi": "उत्तम नगर वेस्ट", "metro": "Blue Line" },
-        { "name": "Janakpuri West", "hindi": "जनकपुरी वेस्ट", "metro": "Blue/Magenta Line" },
-        { "name": "Tagore Garden", "hindi": "टैगोर गार्डन", "metro": "Blue Line" },
-        { "name": "Rajouri Garden", "hindi": "राजौरी गार्डन", "metro": "Blue/Pink Line" },
-        { "name": "Karol Bagh", "hindi": "करोल बाग", "metro": "Blue Line" },
-        { "name": "Patel Chowk", "hindi": "पटेल चौक" },
-        { "name": "Connaught Place (Rajiv Chowk)", "hindi": "कनॉट प्लेस", "metro": "Blue/Yellow Line" }
+        {
+          "name": "Dwarka Sector 9",
+          "hindi": "द्वारका सेक्टर 9",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Dwarka Sector 10",
+          "hindi": "द्वारका सेक्टर 10",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Dwarka Sector 11",
+          "hindi": "द्वारका सेक्टर 11",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Dwarka Sector 12",
+          "hindi": "द्वारका सेक्टर 12",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Dwarka",
+          "hindi": "द्वारका",
+          "metro": "Blue/Grey Line"
+        },
+        {
+          "name": "Dwarka Mor",
+          "hindi": "द्वारका मोड़",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Nawada",
+          "hindi": "नवादा",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Uttam Nagar West",
+          "hindi": "उत्तम नगर वेस्ट",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Janakpuri West",
+          "hindi": "जनकपुरी वेस्ट",
+          "metro": "Blue/Magenta Line"
+        },
+        {
+          "name": "Tagore Garden",
+          "hindi": "टैगोर गार्डन",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Rajouri Garden",
+          "hindi": "राजौरी गार्डन",
+          "metro": "Blue/Pink Line"
+        },
+        {
+          "name": "Karol Bagh",
+          "hindi": "करोल बाग",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Patel Chowk",
+          "hindi": "पटेल चौक"
+        },
+        {
+          "name": "Connaught Place (Rajiv Chowk)",
+          "hindi": "कनॉट प्लेस",
+          "metro": "Blue/Yellow Line"
+        }
       ]
     },
     {
@@ -579,20 +1854,66 @@
       "distanceKm": 14.5,
       "fareNonAc": 10,
       "fareAc": 20,
-      "depots": ["Mehrauli Depot"],
+      "depots": [
+        "Mehrauli Depot"
+      ],
       "stops": [
-        { "name": "Saket Terminal", "hindi": "साकेत टर्मिनल", "metro": "Yellow Line" },
-        { "name": "Malviya Nagar Metro", "hindi": "मालवीय नगर", "metro": "Yellow Line" },
-        { "name": "Hauz Khas", "hindi": "हौज़ खास", "metro": "Yellow/Magenta Line" },
-        { "name": "Green Park", "hindi": "ग्रीन पार्क", "metro": "Yellow Line" },
-        { "name": "AIIMS", "hindi": "एम्स", "metro": "Yellow Line" },
-        { "name": "Safdarjung Hospital", "hindi": "सफदरजंग अस्पताल" },
-        { "name": "Dilli Haat INA", "hindi": "दिल्ली हाट आईएनए", "metro": "Pink/Yellow Line" },
-        { "name": "South Extension", "hindi": "साउथ एक्सटेंशन" },
-        { "name": "Lajpat Nagar", "hindi": "लाजपत नगर", "metro": "Pink/Violet Line" },
-        { "name": "Pragati Maidan", "hindi": "प्रगति मैदान" },
-        { "name": "ITO", "hindi": "आईटीओ", "metro": "Violet Line" },
-        { "name": "Delhi Secretariat", "hindi": "दिल्ली सचिवालय" }
+        {
+          "name": "Saket Terminal",
+          "hindi": "साकेत टर्मिनल",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Malviya Nagar Metro",
+          "hindi": "मालवीय नगर",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Hauz Khas",
+          "hindi": "हौज़ खास",
+          "metro": "Yellow/Magenta Line"
+        },
+        {
+          "name": "Green Park",
+          "hindi": "ग्रीन पार्क",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "AIIMS",
+          "hindi": "एम्स",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Safdarjung Hospital",
+          "hindi": "सफदरजंग अस्पताल"
+        },
+        {
+          "name": "Dilli Haat INA",
+          "hindi": "दिल्ली हाट आईएनए",
+          "metro": "Pink/Yellow Line"
+        },
+        {
+          "name": "South Extension",
+          "hindi": "साउथ एक्सटेंशन"
+        },
+        {
+          "name": "Lajpat Nagar",
+          "hindi": "लाजपत नगर",
+          "metro": "Pink/Violet Line"
+        },
+        {
+          "name": "Pragati Maidan",
+          "hindi": "प्रगति मैदान"
+        },
+        {
+          "name": "ITO",
+          "hindi": "आईटीओ",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Delhi Secretariat",
+          "hindi": "दिल्ली सचिवालय"
+        }
       ]
     },
     {
@@ -606,21 +1927,63 @@
       "firstBus": "05:00 AM",
       "lastBus": "11:30 PM",
       "frequency": "Every 6–10 mins",
-      "distanceKm": 18.0,
+      "distanceKm": 18,
       "fareNonAc": 10,
       "fareAc": 20,
-      "depots": ["Dilshad Garden Depot"],
+      "depots": [
+        "Dilshad Garden Depot"
+      ],
       "stops": [
-        { "name": "Dilshad Garden", "hindi": "दिलशाद गार्डन", "metro": "Red Line" },
-        { "name": "Jhilmil", "hindi": "झिलमिल", "metro": "Red Line" },
-        { "name": "Mansarovar Park", "hindi": "मानसरोवर पार्क", "metro": "Red Line" },
-        { "name": "Shahdara", "hindi": "शाहदरा", "metro": "Red Line" },
-        { "name": "Seelampur", "hindi": "सीलमपुर", "metro": "Red Line" },
-        { "name": "Welcome", "hindi": "वेलकम", "metro": "Red/Pink Line" },
-        { "name": "Shastri Park", "hindi": "शास्त्री पार्क", "metro": "Red Line" },
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट", "metro": "Triple Interchange" },
-        { "name": "Chandni Chowk", "hindi": "चांदनी चौक", "metro": "Yellow Line" },
-        { "name": "New Delhi Railway Station", "hindi": "नई दिल्ली रेलवे स्टेशन", "metro": "Yellow Line" }
+        {
+          "name": "Dilshad Garden",
+          "hindi": "दिलशाद गार्डन",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Jhilmil",
+          "hindi": "झिलमिल",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Mansarovar Park",
+          "hindi": "मानसरोवर पार्क",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Shahdara",
+          "hindi": "शाहदरा",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Seelampur",
+          "hindi": "सीलमपुर",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Welcome",
+          "hindi": "वेलकम",
+          "metro": "Red/Pink Line"
+        },
+        {
+          "name": "Shastri Park",
+          "hindi": "शास्त्री पार्क",
+          "metro": "Red Line"
+        },
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट",
+          "metro": "Triple Interchange"
+        },
+        {
+          "name": "Chandni Chowk",
+          "hindi": "चांदनी चौक",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "New Delhi Railway Station",
+          "hindi": "नई दिल्ली रेलवे स्टेशन",
+          "metro": "Yellow Line"
+        }
       ]
     },
     {
@@ -634,19 +1997,51 @@
       "firstBus": "04:30 AM",
       "lastBus": "11:30 PM",
       "frequency": "Every 20–30 mins",
-      "distanceKm": 19.0,
+      "distanceKm": 19,
       "fareNonAc": 25,
       "fareAc": 50,
-      "depots": ["Indraprastha Depot"],
+      "depots": [
+        "Indraprastha Depot"
+      ],
       "stops": [
-        { "name": "New Delhi Railway Station", "hindi": "नई दिल्ली रेलवे स्टेशन", "metro": "Yellow/Airport Line" },
-        { "name": "Connaught Place", "hindi": "कनॉट प्लेस", "metro": "Blue/Yellow Line" },
-        { "name": "Shivaji Stadium", "hindi": "शिवाजी स्टेडियम", "metro": "Airport Line" },
-        { "name": "Dhaula Kuan", "hindi": "धौला कुआं", "metro": "Airport/Pink Line" },
-        { "name": "Delhi Aerocity", "hindi": "दिल्ली एयरोसिटी", "metro": "Airport Line" },
-        { "name": "IGI Airport Terminal 1", "hindi": "आईजीआई टी1" },
-        { "name": "IGI Airport Terminal 2", "hindi": "आईजीआई टी2" },
-        { "name": "IGI Airport Terminal 3", "hindi": "आईजीआई टी3", "metro": "Airport/Magenta Line" }
+        {
+          "name": "New Delhi Railway Station",
+          "hindi": "नई दिल्ली रेलवे स्टेशन",
+          "metro": "Yellow/Airport Line"
+        },
+        {
+          "name": "Connaught Place",
+          "hindi": "कनॉट प्लेस",
+          "metro": "Blue/Yellow Line"
+        },
+        {
+          "name": "Shivaji Stadium",
+          "hindi": "शिवाजी स्टेडियम",
+          "metro": "Airport Line"
+        },
+        {
+          "name": "Dhaula Kuan",
+          "hindi": "धौला कुआं",
+          "metro": "Airport/Pink Line"
+        },
+        {
+          "name": "Delhi Aerocity",
+          "hindi": "दिल्ली एयरोसिटी",
+          "metro": "Airport Line"
+        },
+        {
+          "name": "IGI Airport Terminal 1",
+          "hindi": "आईजीआई टी1"
+        },
+        {
+          "name": "IGI Airport Terminal 2",
+          "hindi": "आईजीआई टी2"
+        },
+        {
+          "name": "IGI Airport Terminal 3",
+          "hindi": "आईजीआई टी3",
+          "metro": "Airport/Magenta Line"
+        }
       ]
     },
     {
@@ -660,22 +2055,65 @@
       "firstBus": "05:30 AM",
       "lastBus": "10:30 PM",
       "frequency": "Every 10–15 mins",
-      "distanceKm": 22.0,
+      "distanceKm": 22,
       "fareNonAc": 15,
       "fareAc": 20,
-      "depots": ["Patparganj Depot"],
+      "depots": [
+        "Patparganj Depot"
+      ],
       "stops": [
-        { "name": "Patparganj", "hindi": "पटपड़गंज" },
-        { "name": "Mayur Vihar Phase 1", "hindi": "मयूर विहार फेज 1", "metro": "Blue/Pink Line" },
-        { "name": "Akshardham", "hindi": "अक्षरधाम", "metro": "Blue Line" },
-        { "name": "Sarai Kale Khan", "hindi": "सराय काले खां", "metro": "Pink Line" },
-        { "name": "Hazrat Nizamuddin", "hindi": "हज़रत निज़ामुद्दीन" },
-        { "name": "Jangpura", "hindi": "जंगपुरा", "metro": "Violet Line" },
-        { "name": "Lajpat Nagar", "hindi": "लाजपत नगर", "metro": "Pink/Violet Line" },
-        { "name": "Moolchand", "hindi": "मूलचंद", "metro": "Violet Line" },
-        { "name": "Kailash Colony", "hindi": "कैलाश कॉलोनी", "metro": "Violet Line" },
-        { "name": "Nehru Place", "hindi": "नेहरू प्लेस", "metro": "Violet Line" },
-        { "name": "Nehru Place Terminal", "hindi": "नेहरू प्लेस टर्मिनल" }
+        {
+          "name": "Patparganj",
+          "hindi": "पटपड़गंज"
+        },
+        {
+          "name": "Mayur Vihar Phase 1",
+          "hindi": "मयूर विहार फेज 1",
+          "metro": "Blue/Pink Line"
+        },
+        {
+          "name": "Akshardham",
+          "hindi": "अक्षरधाम",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Sarai Kale Khan",
+          "hindi": "सराय काले खां",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Hazrat Nizamuddin",
+          "hindi": "हज़रत निज़ामुद्दीन"
+        },
+        {
+          "name": "Jangpura",
+          "hindi": "जंगपुरा",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Lajpat Nagar",
+          "hindi": "लाजपत नगर",
+          "metro": "Pink/Violet Line"
+        },
+        {
+          "name": "Moolchand",
+          "hindi": "मूलचंद",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Kailash Colony",
+          "hindi": "कैलाश कॉलोनी",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Nehru Place",
+          "hindi": "नेहरू प्लेस",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Nehru Place Terminal",
+          "hindi": "नेहरू प्लेस टर्मिनल"
+        }
       ]
     },
     {
@@ -689,24 +2127,77 @@
       "firstBus": "05:00 AM",
       "lastBus": "10:30 PM",
       "frequency": "Every 15–20 mins",
-      "distanceKm": 28.0,
+      "distanceKm": 28,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Najafgarh Depot"],
+      "depots": [
+        "Najafgarh Depot"
+      ],
       "stops": [
-        { "name": "Najafgarh Terminal", "hindi": "नजफगढ़ टर्मिनल" },
-        { "name": "Dhansa Bus Stand", "hindi": "ढांसा बस स्टैंड", "metro": "Grey Line" },
-        { "name": "Nangli", "hindi": "नांगली", "metro": "Grey Line" },
-        { "name": "Dwarka Sector 21", "hindi": "द्वारका सेक्टर 21", "metro": "Blue/Airport Line" },
-        { "name": "Dwarka Sector 12", "hindi": "द्वारका सेक्टर 12", "metro": "Blue Line" },
-        { "name": "Dwarka Mor", "hindi": "द्वारका मोड़", "metro": "Blue Line" },
-        { "name": "Nawada", "hindi": "नवादा", "metro": "Blue Line" },
-        { "name": "Uttam Nagar", "hindi": "उत्तम नगर", "metro": "Blue Line" },
-        { "name": "Janakpuri", "hindi": "जनकपुरी", "metro": "Blue/Magenta Line" },
-        { "name": "Tilak Nagar", "hindi": "तिलक नगर", "metro": "Blue Line" },
-        { "name": "Moti Nagar", "hindi": "मोती नगर", "metro": "Blue Line" },
-        { "name": "Karol Bagh", "hindi": "करोल बाग", "metro": "Blue Line" },
-        { "name": "Connaught Place", "hindi": "कनॉट प्लेस", "metro": "Blue/Yellow Line" }
+        {
+          "name": "Najafgarh Terminal",
+          "hindi": "नजफगढ़ टर्मिनल"
+        },
+        {
+          "name": "Dhansa Bus Stand",
+          "hindi": "ढांसा बस स्टैंड",
+          "metro": "Grey Line"
+        },
+        {
+          "name": "Nangli",
+          "hindi": "नांगली",
+          "metro": "Grey Line"
+        },
+        {
+          "name": "Dwarka Sector 21",
+          "hindi": "द्वारका सेक्टर 21",
+          "metro": "Blue/Airport Line"
+        },
+        {
+          "name": "Dwarka Sector 12",
+          "hindi": "द्वारका सेक्टर 12",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Dwarka Mor",
+          "hindi": "द्वारका मोड़",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Nawada",
+          "hindi": "नवादा",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Uttam Nagar",
+          "hindi": "उत्तम नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Janakpuri",
+          "hindi": "जनकपुरी",
+          "metro": "Blue/Magenta Line"
+        },
+        {
+          "name": "Tilak Nagar",
+          "hindi": "तिलक नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Moti Nagar",
+          "hindi": "मोती नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Karol Bagh",
+          "hindi": "करोल बाग",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Connaught Place",
+          "hindi": "कनॉट प्लेस",
+          "metro": "Blue/Yellow Line"
+        }
       ]
     },
     {
@@ -720,24 +2211,76 @@
       "firstBus": "05:00 AM",
       "lastBus": "10:00 PM",
       "frequency": "Every 20–30 mins",
-      "distanceKm": 42.0,
+      "distanceKm": 42,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Narela Depot", "Mehrauli Depot"],
+      "depots": [
+        "Narela Depot",
+        "Mehrauli Depot"
+      ],
       "stops": [
-        { "name": "Narela Terminal", "hindi": "नरेला टर्मिनल" },
-        { "name": "Bawana", "hindi": "बवाना" },
-        { "name": "Rohini Sector 3", "hindi": "रोहिणी सेक्टर 3" },
-        { "name": "Pitampura", "hindi": "पीतमपुरा", "metro": "Red Line" },
-        { "name": "Netaji Subhash Place", "hindi": "नेताजी सुभाष प्लेस", "metro": "Red/Pink Line" },
-        { "name": "Inderlok", "hindi": "इंदरलोक", "metro": "Red/Green Line" },
-        { "name": "Patel Nagar", "hindi": "पटेल नगर", "metro": "Blue Line" },
-        { "name": "Rajiv Chowk", "hindi": "राजीव चौक", "metro": "Blue/Yellow Line" },
-        { "name": "Mandi House", "hindi": "मंडी हाउस", "metro": "Blue/Violet Line" },
-        { "name": "ITO", "hindi": "आईटीओ", "metro": "Violet Line" },
-        { "name": "Lajpat Nagar", "hindi": "लाजपत नगर", "metro": "Pink/Violet Line" },
-        { "name": "Malviya Nagar", "hindi": "मालवीय नगर", "metro": "Yellow Line" },
-        { "name": "Saket Terminal", "hindi": "साकेत टर्मिनल", "metro": "Yellow Line" }
+        {
+          "name": "Narela Terminal",
+          "hindi": "नरेला टर्मिनल"
+        },
+        {
+          "name": "Bawana",
+          "hindi": "बवाना"
+        },
+        {
+          "name": "Rohini Sector 3",
+          "hindi": "रोहिणी सेक्टर 3"
+        },
+        {
+          "name": "Pitampura",
+          "hindi": "पीतमपुरा",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Netaji Subhash Place",
+          "hindi": "नेताजी सुभाष प्लेस",
+          "metro": "Red/Pink Line"
+        },
+        {
+          "name": "Inderlok",
+          "hindi": "इंदरलोक",
+          "metro": "Red/Green Line"
+        },
+        {
+          "name": "Patel Nagar",
+          "hindi": "पटेल नगर",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Rajiv Chowk",
+          "hindi": "राजीव चौक",
+          "metro": "Blue/Yellow Line"
+        },
+        {
+          "name": "Mandi House",
+          "hindi": "मंडी हाउस",
+          "metro": "Blue/Violet Line"
+        },
+        {
+          "name": "ITO",
+          "hindi": "आईटीओ",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Lajpat Nagar",
+          "hindi": "लाजपत नगर",
+          "metro": "Pink/Violet Line"
+        },
+        {
+          "name": "Malviya Nagar",
+          "hindi": "मालवीय नगर",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Saket Terminal",
+          "hindi": "साकेत टर्मिनल",
+          "metro": "Yellow Line"
+        }
       ]
     },
     {
@@ -751,20 +2294,55 @@
       "firstBus": "05:30 AM",
       "lastBus": "11:00 PM",
       "frequency": "Every 8–12 mins",
-      "distanceKm": 15.0,
+      "distanceKm": 15,
       "fareNonAc": 10,
       "fareAc": 15,
-      "depots": ["Shahdara Depot"],
+      "depots": [
+        "Shahdara Depot"
+      ],
       "stops": [
-        { "name": "Shahdara Terminal", "hindi": "शाहदरा टर्मिनल", "metro": "Red Line" },
-        { "name": "Seelampur", "hindi": "सीलमपुर", "metro": "Red Line" },
-        { "name": "Shastri Park", "hindi": "शास्त्री पार्क", "metro": "Red Line" },
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट", "metro": "Triple Interchange" },
-        { "name": "Nicholson Road", "hindi": "निकोलसन रोड" },
-        { "name": "Chandni Chowk", "hindi": "चांदनी चौक", "metro": "Yellow Line" },
-        { "name": "New Delhi Railway Station", "hindi": "नई दिल्ली रेलवे स्टेशन" },
-        { "name": "Panchkuian Road", "hindi": "पंचकुइयां रोड" },
-        { "name": "Connaught Place", "hindi": "कनॉट प्लेस", "metro": "Blue/Yellow Line" }
+        {
+          "name": "Shahdara Terminal",
+          "hindi": "शाहदरा टर्मिनल",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Seelampur",
+          "hindi": "सीलमपुर",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Shastri Park",
+          "hindi": "शास्त्री पार्क",
+          "metro": "Red Line"
+        },
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट",
+          "metro": "Triple Interchange"
+        },
+        {
+          "name": "Nicholson Road",
+          "hindi": "निकोलसन रोड"
+        },
+        {
+          "name": "Chandni Chowk",
+          "hindi": "चांदनी चौक",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "New Delhi Railway Station",
+          "hindi": "नई दिल्ली रेलवे स्टेशन"
+        },
+        {
+          "name": "Panchkuian Road",
+          "hindi": "पंचकुइयां रोड"
+        },
+        {
+          "name": "Connaught Place",
+          "hindi": "कनॉट प्लेस",
+          "metro": "Blue/Yellow Line"
+        }
       ]
     },
     {
@@ -778,24 +2356,74 @@
       "firstBus": "05:00 AM",
       "lastBus": "10:30 PM",
       "frequency": "Every 12–18 mins",
-      "distanceKm": 32.0,
+      "distanceKm": 32,
       "fareNonAc": 15,
       "fareAc": 25,
-      "depots": ["Mangolpuri Depot"],
+      "depots": [
+        "Mangolpuri Depot"
+      ],
       "stops": [
-        { "name": "Mangolpuri Terminal", "hindi": "मंगोलपुरी टर्मिनल" },
-        { "name": "Rohini West", "hindi": "रोहिणी वेस्ट", "metro": "Red Line" },
-        { "name": "Pitampura", "hindi": "पीतमपुरा", "metro": "Red Line" },
-        { "name": "Shalimar Bagh", "hindi": "शालीमार बाग", "metro": "Pink Line" },
-        { "name": "Azadpur", "hindi": "आज़ादपुर", "metro": "Yellow/Pink Line" },
-        { "name": "Model Town", "hindi": "मॉडल टाउन", "metro": "Yellow Line" },
-        { "name": "Shakti Nagar", "hindi": "शक्ति नगर" },
-        { "name": "Karol Bagh", "hindi": "करोल बाग", "metro": "Blue Line" },
-        { "name": "Rajiv Chowk", "hindi": "राजीव चौक", "metro": "Blue/Yellow Line" },
-        { "name": "Central Secretariat", "hindi": "केंद्रीय सचिवालय", "metro": "Yellow/Violet Line" },
-        { "name": "Lodi Road", "hindi": "लोधी रोड" },
-        { "name": "Nehru Place", "hindi": "नेहरू प्लेस", "metro": "Violet Line" },
-        { "name": "Nehru Place Terminal", "hindi": "नेहरू प्लेस टर्मिनल" }
+        {
+          "name": "Mangolpuri Terminal",
+          "hindi": "मंगोलपुरी टर्मिनल"
+        },
+        {
+          "name": "Rohini West",
+          "hindi": "रोहिणी वेस्ट",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Pitampura",
+          "hindi": "पीतमपुरा",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Shalimar Bagh",
+          "hindi": "शालीमार बाग",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Azadpur",
+          "hindi": "आज़ादपुर",
+          "metro": "Yellow/Pink Line"
+        },
+        {
+          "name": "Model Town",
+          "hindi": "मॉडल टाउन",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Shakti Nagar",
+          "hindi": "शक्ति नगर"
+        },
+        {
+          "name": "Karol Bagh",
+          "hindi": "करोल बाग",
+          "metro": "Blue Line"
+        },
+        {
+          "name": "Rajiv Chowk",
+          "hindi": "राजीव चौक",
+          "metro": "Blue/Yellow Line"
+        },
+        {
+          "name": "Central Secretariat",
+          "hindi": "केंद्रीय सचिवालय",
+          "metro": "Yellow/Violet Line"
+        },
+        {
+          "name": "Lodi Road",
+          "hindi": "लोधी रोड"
+        },
+        {
+          "name": "Nehru Place",
+          "hindi": "नेहरू प्लेस",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Nehru Place Terminal",
+          "hindi": "नेहरू प्लेस टर्मिनल"
+        }
       ]
     },
     {
@@ -809,23 +2437,71 @@
       "firstBus": "05:00 AM",
       "lastBus": "11:00 PM",
       "frequency": "Every 8–12 mins",
-      "distanceKm": 20.0,
+      "distanceKm": 20,
       "fareNonAc": 10,
       "fareAc": 20,
-      "depots": ["Nand Nagri Depot"],
+      "depots": [
+        "Nand Nagri Depot"
+      ],
       "stops": [
-        { "name": "Nand Nagri Terminal", "hindi": "नंद नगरी टर्मिनल" },
-        { "name": "Jaffrabad", "hindi": "जाफराबाद", "metro": "Pink Line" },
-        { "name": "Maujpur", "hindi": "मौजपुर", "metro": "Pink Line" },
-        { "name": "Welcome", "hindi": "वेलकम", "metro": "Red/Pink Line" },
-        { "name": "Seelampur", "hindi": "सीलमपुर", "metro": "Red Line" },
-        { "name": "Shastri Park", "hindi": "शास्त्री पार्क", "metro": "Red Line" },
-        { "name": "ISBT Kashmere Gate", "hindi": "कश्मीरी गेट", "metro": "Triple Interchange" },
-        { "name": "Chandni Chowk", "hindi": "चांदनी चौक", "metro": "Yellow Line" },
-        { "name": "Darya Ganj", "hindi": "दरिया गंज" },
-        { "name": "Delhi Gate", "hindi": "दिल्ली गेट", "metro": "Violet Line" },
-        { "name": "ITO", "hindi": "आईटीओ", "metro": "Violet Line" },
-        { "name": "Pragati Maidan", "hindi": "प्रगति मैदान", "metro": "Blue Line" }
+        {
+          "name": "Nand Nagri Terminal",
+          "hindi": "नंद नगरी टर्मिनल"
+        },
+        {
+          "name": "Jaffrabad",
+          "hindi": "जाफराबाद",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Maujpur",
+          "hindi": "मौजपुर",
+          "metro": "Pink Line"
+        },
+        {
+          "name": "Welcome",
+          "hindi": "वेलकम",
+          "metro": "Red/Pink Line"
+        },
+        {
+          "name": "Seelampur",
+          "hindi": "सीलमपुर",
+          "metro": "Red Line"
+        },
+        {
+          "name": "Shastri Park",
+          "hindi": "शास्त्री पार्क",
+          "metro": "Red Line"
+        },
+        {
+          "name": "ISBT Kashmere Gate",
+          "hindi": "कश्मीरी गेट",
+          "metro": "Triple Interchange"
+        },
+        {
+          "name": "Chandni Chowk",
+          "hindi": "चांदनी चौक",
+          "metro": "Yellow Line"
+        },
+        {
+          "name": "Darya Ganj",
+          "hindi": "दरिया गंज"
+        },
+        {
+          "name": "Delhi Gate",
+          "hindi": "दिल्ली गेट",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "ITO",
+          "hindi": "आईटीओ",
+          "metro": "Violet Line"
+        },
+        {
+          "name": "Pragati Maidan",
+          "hindi": "प्रगति मैदान",
+          "metro": "Blue Line"
+        }
       ]
     }
   ],
@@ -833,18 +2509,34 @@
     {
       "station": "Kashmere Gate",
       "hindi": "कश्मीरी गेट",
-      "lines": ["red", "yellow", "violet"],
+      "lines": [
+        "red",
+        "yellow",
+        "violet"
+      ],
       "busStands": [
         {
           "gate": "Gate 7 (ISBT Entrance)",
           "standName": "ISBT Kashmere Gate Main Bay",
-          "connectingBuses": ["TMS", "729", "Airport-Exp-4", "108", "212", "181"],
+          "connectingBuses": [
+            "TMS",
+            "729",
+            "Airport-Exp-4",
+            "108",
+            "212",
+            "181"
+          ],
           "keyDestinations": "Nehru Place, Kapashera Border, IGI Airport T3, Jahangirpuri, Anand Vihar"
         },
         {
           "gate": "Gate 1 & 2 (Mori Gate)",
           "standName": "Mori Gate Terminal",
-          "connectingBuses": ["729", "419", "502", "Airport-Exp-4"],
+          "connectingBuses": [
+            "729",
+            "419",
+            "502",
+            "Airport-Exp-4"
+          ],
           "keyDestinations": "Dhaula Kuan, Kapashera, CP, Mehrauli, Airport"
         }
       ]
@@ -852,18 +2544,32 @@
     {
       "station": "Rajiv Chowk",
       "hindi": "राजीव चौक",
-      "lines": ["yellow", "blue"],
+      "lines": [
+        "yellow",
+        "blue"
+      ],
       "busStands": [
         {
           "gate": "Gate 1 & 2 (Palika Bazar)",
           "standName": "Super Bazar / Outer Circle",
-          "connectingBuses": ["502", "729", "901", "Airport-Exp-4", "181"],
+          "connectingBuses": [
+            "502",
+            "729",
+            "901",
+            "Airport-Exp-4",
+            "181"
+          ],
           "keyDestinations": "Mehrauli, Kapashera, Mangolpuri, Old Delhi Rly, IGI Airport"
         },
         {
           "gate": "Gate 7 (Regal)",
           "standName": "Shivaji Stadium Terminal",
-          "connectingBuses": ["260", "901", "729", "166"],
+          "connectingBuses": [
+            "260",
+            "901",
+            "729",
+            "166"
+          ],
           "keyDestinations": "Shahdara, Mangolpuri, Dhaula Kuan, Shalimar Bagh"
         }
       ]
@@ -871,12 +2577,20 @@
     {
       "station": "Anand Vihar ISBT",
       "hindi": "आनंद विहार आईएसबीटी",
-      "lines": ["blue", "pink"],
+      "lines": [
+        "blue",
+        "pink"
+      ],
       "busStands": [
         {
           "gate": "Gate 1 (Direct Bus Bay)",
           "standName": "Anand Vihar DTC Bus Terminal",
-          "connectingBuses": ["534", "TMS", "212", "971"],
+          "connectingBuses": [
+            "534",
+            "TMS",
+            "212",
+            "971"
+          ],
           "keyDestinations": "Mehrauli, Nehru Place, Rohini, Nand Nagri, AIIMS, Preet Vihar"
         }
       ]
@@ -884,12 +2598,21 @@
     {
       "station": "Lajpat Nagar",
       "hindi": "लाजपत नगर",
-      "lines": ["pink", "violet"],
+      "lines": [
+        "pink",
+        "violet"
+      ],
       "busStands": [
         {
           "gate": "Gate 5 (Ring Road)",
           "standName": "Lajpat Nagar Ring Road Bus Stop",
-          "connectingBuses": ["534", "OMS", "TMS", "419", "544"],
+          "connectingBuses": [
+            "534",
+            "OMS",
+            "TMS",
+            "419",
+            "544"
+          ],
           "keyDestinations": "AIIMS, Dhaula Kuan, Ashram, Mehrauli, Badarpur, Old Delhi"
         }
       ]
@@ -897,12 +2620,20 @@
     {
       "station": "Dhaula Kuan",
       "hindi": "धौला कुआँ",
-      "lines": ["orange", "pink"],
+      "lines": [
+        "orange",
+        "pink"
+      ],
       "busStands": [
         {
           "gate": "Gate 1 (Ring Road Underpass)",
           "standName": "Dhaula Kuan Major Junction Stand",
-          "connectingBuses": ["729", "OMS", "Airport-Exp-4", "108"],
+          "connectingBuses": [
+            "729",
+            "OMS",
+            "Airport-Exp-4",
+            "108"
+          ],
           "keyDestinations": "Kapashera, IGI Airport T3, AIIMS, Hari Nagar, Nehru Place, CP"
         }
       ]
@@ -910,12 +2641,20 @@
     {
       "station": "AIIMS",
       "hindi": "एम्स",
-      "lines": ["yellow"],
+      "lines": [
+        "yellow"
+      ],
       "busStands": [
         {
           "gate": "Gate 2 (Safdarjung Hospital)",
           "standName": "AIIMS / Safdarjung Bus Bay",
-          "connectingBuses": ["534", "623", "502", "544", "OMS"],
+          "connectingBuses": [
+            "534",
+            "623",
+            "502",
+            "544",
+            "OMS"
+          ],
           "keyDestinations": "Mehrauli, Vasant Vihar, Anand Vihar, CP, Old Delhi, Badarpur"
         }
       ]

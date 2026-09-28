@@ -1,10 +1,10 @@
 {
-  "versionCode": 8,
-  "versionName": "1.3.1",
+  "versionCode": 9,
+  "versionName": "1.3.2",
   "appName": "Delhi Routes",
   "packageName": "com.delhimetro.pulse",
   "releaseDate": "2026-09-28",
-  "releaseNotes": "v1.3.1: DTC Bus expansion — 22 routes total covering all major Delhi corridors, bus stop autocomplete in Stop-to-Stop planner, feeder hub quick-select chips, bus icon fix, and improved route data.",
+  "releaseNotes": "v1.3.2: Complete DTC Bus Network Integration — Search all 2,400+ DTC & Cluster bus routes live, interactive Leaflet route maps with all stops, official full timetables (Night/Morning/Afternoon/Evening departures), 1-tap return route switcher, DTC Bus Green footer navigation, and Bus Stands & ISBT boarding bays directory.",
   "apkUrl": "https://raw.githubusercontent.com/Kairesh/DMT-Apk/main/DelhiMetroTracker.apk",
   "githubRepo": "https://github.com/Kairesh/DMT-Apk"
 }
