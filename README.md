@@ -1,7 +1,7 @@
 # Delhi Routes - Official APK Release Channel (Metro & DTC Bus)
 
-[![Release](https://img.shields.io/badge/Release-v1.3.2-blue.svg)](https://github.com/Kairesh/DMT-Apk)
-[![Size](https://img.shields.io/badge/Size-5.31%20MB-success.svg)](https://github.com/Kairesh/DMT-Apk/raw/main/DelhiMetroTracker.apk)
+[![Release](https://img.shields.io/badge/Release-v1.3.3-blue.svg)](https://github.com/Kairesh/DMT-Apk)
+[![Size](https://img.shields.io/badge/Size-5.41%20MB-success.svg)](https://github.com/Kairesh/DMT-Apk/raw/main/DelhiMetroTracker.apk)
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/Kairesh/DMT-Apk)
 
 Official direct download repository for **Delhi Routes** (Delhi Metro & DTC Bus All-in-One Transit Companion).
@@ -10,17 +10,17 @@ Official direct download repository for **Delhi Routes** (Delhi Metro & DTC Bus 
 
 ## 📥 Direct APK Download
 
-👉 **[Click Here to Download DelhiMetroTracker.apk](https://github.com/Kairesh/DMT-Apk/raw/main/DelhiMetroTracker.apk)** (~5.31 MB)
+👉 **[Click Here to Download DelhiMetroTracker.apk](https://github.com/Kairesh/DMT-Apk/raw/main/DelhiMetroTracker.apk)** (~5.41 MB)
 
 ---
 
 ## 📋 Latest Release Information
 
-- **Version:** `v1.3.2` (Code `9`)
+- **Version:** `v1.3.3` (Code `10`)
 - **Released:** `2026-09-28`
 - **Package:** `com.delhimetro.pulse`
 - **Release Notes:**
-  > v1.3.2: Complete DTC Bus Network Integration — Search all 2,400+ DTC & Cluster bus routes live, interactive Leaflet route maps with all stops, official full timetables (Night/Morning/Afternoon/Evening departures), 1-tap return route switcher, DTC Bus Green footer navigation, and Bus Stands & ISBT boarding bays directory.
+  > v1.3.3: Ultimate Bus Experience — Live place & stop autocomplete across all 5,000+ Delhi bus stands, smart Stop-to-Stop journey planner with direct & 1-transfer connections, on-demand data-saver Leaflet route & journey maps (0 API key required), live bus stand directory with calling routes & next arrival times, plain-English timetable explanations, and fixed search bar clear button positioning.
 
 ---
 
