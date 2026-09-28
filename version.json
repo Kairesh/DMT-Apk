@@ -1,10 +1,10 @@
 {
-  "versionCode": 10,
-  "versionName": "1.3.3",
+  "versionCode": 11,
+  "versionName": "1.3.4",
   "appName": "Delhi Routes",
   "packageName": "com.delhimetro.pulse",
   "releaseDate": "2026-09-28",
-  "releaseNotes": "v1.3.3: Ultimate Bus Experience — Live place & stop autocomplete across all 5,000+ Delhi bus stands, smart Stop-to-Stop journey planner with direct & 1-transfer connections, on-demand data-saver Leaflet route & journey maps (0 API key required), live bus stand directory with calling routes & next arrival times, plain-English timetable explanations, and fixed search bar clear button positioning.",
+  "releaseNotes": "v1.3.4: Fixed update prompt loop — dynamically synchronizes with Android PackageManager to accurately verify installed app version, stops repeat update notifications once updated, and retains full DTC live route search & multi-leg journey planning.",
   "apkUrl": "https://raw.githubusercontent.com/Kairesh/DMT-Apk/main/DelhiMetroTracker.apk",
   "githubRepo": "https://github.com/Kairesh/DMT-Apk"
 }
