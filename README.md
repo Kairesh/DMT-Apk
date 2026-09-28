@@ -1,6 +1,6 @@
 # Delhi Routes - Official APK Release Channel (Metro & DTC Bus)
 
-[![Release](https://img.shields.io/badge/Release-v1.3.7-blue.svg)](https://github.com/Kairesh/DMT-Apk)
+[![Release](https://img.shields.io/badge/Release-v1.3.8-blue.svg)](https://github.com/Kairesh/DMT-Apk)
 [![Size](https://img.shields.io/badge/Size-5.48%20MB-success.svg)](https://github.com/Kairesh/DMT-Apk/raw/main/DelhiMetroTracker.apk)
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/Kairesh/DMT-Apk)
 
@@ -16,11 +16,11 @@ Official direct download repository for **Delhi Routes** (Delhi Metro & DTC Bus 
 
 ## 📋 Latest Release Information
 
-- **Version:** `v1.3.7` (Code `14`)
+- **Version:** `v1.3.8` (Code `15`)
 - **Released:** `2026-09-28`
 - **Package:** `com.delhimetro.pulse`
 - **Release Notes:**
-  > v1.3.7: Official dtcbusroutes.in layout for Stop-to-Stop Connecting Bus journeys with collapsible intermediate stops, 1-changeover interchange cards, Best route badge, and full interactive maps with Start A, Transfer and End B pins. All timetables, schedules, and first/last bus/train timings converted to clean 12-hour AM/PM format.
+  > v1.3.8: Fix route action buttons layout. Sleek, professional Apple-style full-width View Route on Map button and clean secondary timetable links, resolving stretched map button and clunky grey blocks.
 
 ---
 
