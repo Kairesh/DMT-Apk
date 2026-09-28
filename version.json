@@ -1,10 +1,10 @@
 {
-  "versionCode": 5,
-  "versionName": "1.2.3",
+  "versionCode": 6,
+  "versionName": "1.2.4",
   "appName": "Delhi Metro Pulse",
   "packageName": "com.delhimetro.pulse",
   "releaseDate": "2026-09-28",
-  "releaseNotes": "Delhi Metro Pulse v1.2.3: Dynamic train color matching line on Live Radar track, fixed Platform & Train Anatomy buttons layout to prevent screen clipping, and enhanced line theme accents.",
+  "releaseNotes": "Delhi Metro Pulse v1.2.4: Added Transfer Shortcut Fast-Lane guidance (exact coach/doors & fastest walking paths at major junctions to save 3-5 mins), plus new 'Explore Delhi by Metro' curated hub (22 top bazaars, heritage monuments, food streets & transit terminals with 1-tap route calculation).",
   "apkUrl": "https://raw.githubusercontent.com/Kairesh/DMT-Apk/main/DelhiMetroTracker.apk",
   "githubRepo": "https://github.com/Kairesh/DMT-Apk"
 }
