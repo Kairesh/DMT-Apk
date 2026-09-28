@@ -1,10 +1,10 @@
 {
-  "versionCode": 12,
-  "versionName": "1.3.5",
+  "versionCode": 13,
+  "versionName": "1.3.6",
   "appName": "Delhi Routes",
   "packageName": "com.delhimetro.pulse",
   "releaseDate": "2026-09-28",
-  "releaseNotes": "v1.3.5: Switched to 100% free official OpenStreetMap tile servers with zero API key requirement and zero watermarks, plus Apple dark-styled zoom controls and responsive route maps.",
+  "releaseNotes": "v1.3.6: High-precision interactive route maps for Delhi Bus and Delhi Metro. Road geometry polylines, Start A and End B terminal badges, interchange transfer markers, white stop dots, and auto-zoom framing matching official DTC transit layouts.",
   "apkUrl": "https://raw.githubusercontent.com/Kairesh/DMT-Apk/main/DelhiMetroTracker.apk",
   "githubRepo": "https://github.com/Kairesh/DMT-Apk"
 }
