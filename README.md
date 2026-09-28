@@ -1,6 +1,6 @@
 # Delhi Metro Pulse - Official APK Release Channel
 
-[![Release](https://img.shields.io/badge/Release-v1.2.1-blue.svg)](https://github.com/Kairesh/DMT-Apk)
+[![Release](https://img.shields.io/badge/Release-v1.2.2-blue.svg)](https://github.com/Kairesh/DMT-Apk)
 [![Size](https://img.shields.io/badge/Size-5.22%20MB-success.svg)](https://github.com/Kairesh/DMT-Apk/raw/main/DelhiMetroTracker.apk)
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/Kairesh/DMT-Apk)
 
@@ -16,11 +16,11 @@ Official direct download repository for **Delhi Metro Pulse** (Delhi Metro Track
 
 ## 📋 Latest Release Information
 
-- **Version:** `v1.2.1` (Code `3`)
+- **Version:** `v1.2.2` (Code `4`)
 - **Released:** `2026-09-28`
 - **Package:** `com.delhimetro.pulse`
 - **Release Notes:**
-  > Delhi Metro Pulse v1.2.1: Fixed fare display in Simple Route, fixed gate details in anatomy view, intermediate station accordion in simple mode, calibrated natural bilingual voice announcements, and complete SF Symbols vector UI (zero emojis).
+  > Delhi Metro Pulse v1.2.2: Native DownloadManager auto-updater, instant update popup dialog, internet connectivity permissions, Apple SF Symbols vector UI, and calibrated bilingual voice announcer.
 
 ---
 
