@@ -1,0 +1,10 @@
+{
+  "versionCode": 2,
+  "versionName": "1.2.0",
+  "appName": "Delhi Metro Pulse",
+  "packageName": "com.delhimetro.pulse",
+  "releaseDate": "2026-09-28",
+  "releaseNotes": "Delhi Metro Pulse v1.2.0: Apple SF Symbols vector UI, native audio song picker, calibrated bilingual voice announcer, in-app cache cleaner, and automatic live updates.",
+  "apkUrl": "https://raw.githubusercontent.com/Kairesh/DMT-Apk/main/DelhiMetroTracker.apk",
+  "githubRepo": "https://github.com/Kairesh/DMT-Apk"
+}
