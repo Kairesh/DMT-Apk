@@ -1,6 +1,6 @@
 # Delhi Routes - Official APK Release Channel (Metro & DTC Bus)
 
-[![Release](https://img.shields.io/badge/Release-v1.3.4-blue.svg)](https://github.com/Kairesh/DMT-Apk)
+[![Release](https://img.shields.io/badge/Release-v1.3.5-blue.svg)](https://github.com/Kairesh/DMT-Apk)
 [![Size](https://img.shields.io/badge/Size-5.41%20MB-success.svg)](https://github.com/Kairesh/DMT-Apk/raw/main/DelhiMetroTracker.apk)
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/Kairesh/DMT-Apk)
 
@@ -16,11 +16,11 @@ Official direct download repository for **Delhi Routes** (Delhi Metro & DTC Bus 
 
 ## 📋 Latest Release Information
 
-- **Version:** `v1.3.4` (Code `11`)
+- **Version:** `v1.3.5` (Code `12`)
 - **Released:** `2026-09-28`
 - **Package:** `com.delhimetro.pulse`
 - **Release Notes:**
-  > v1.3.4: Fixed update prompt loop — dynamically synchronizes with Android PackageManager to accurately verify installed app version, stops repeat update notifications once updated, and retains full DTC live route search & multi-leg journey planning.
+  > v1.3.5: Switched to 100% free official OpenStreetMap tile servers with zero API key requirement and zero watermarks, plus Apple dark-styled zoom controls and responsive route maps.
 
 ---
 
