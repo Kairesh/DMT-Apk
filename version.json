@@ -1,10 +1,10 @@
 {
-  "versionCode": 15,
-  "versionName": "1.3.8",
+  "versionCode": 16,
+  "versionName": "1.3.9",
   "appName": "Delhi Routes",
   "packageName": "com.delhimetro.pulse",
   "releaseDate": "2026-09-28",
-  "releaseNotes": "v1.3.8: Fix route action buttons layout. Sleek, professional Apple-style full-width View Route on Map button and clean secondary timetable links, resolving stretched map button and clunky grey blocks.",
+  "releaseNotes": "v1.3.9: Complete bilingual Hindi support with bracketed station/stand translations (हिंदी नाम) across all Bus stop-to-stop routes, connecting transfer cards, bus finder timelines, and bus stand details matching Delhi Metro format.",
   "apkUrl": "https://raw.githubusercontent.com/Kairesh/DMT-Apk/main/DelhiMetroTracker.apk",
   "githubRepo": "https://github.com/Kairesh/DMT-Apk"
 }
