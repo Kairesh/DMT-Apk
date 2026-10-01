@@ -1,10 +1,10 @@
 {
-  "versionCode": 18,
-  "versionName": "1.4.1",
+  "versionCode": 19,
+  "versionName": "1.4.2",
   "appName": "Delhi Routes",
   "packageName": "com.delhimetro.pulse",
   "releaseDate": "2026-10-01",
-  "releaseNotes": "v1.4.1: Unified Settings section in bottom navigation, clean uncluttered header with prominent brand badge, AE/Premiere-style 2D visual color spectrum picker with true color accuracy, and aligned Explore Delhi pills.",
+  "releaseNotes": "v1.4.2: Fixed screen responsiveness across all bottom tabs and transit switchers, restored default favorite stations, set Google Blue (#1A73E8) as the native default theme with full custom spectrum palette support, and perfected Explore Delhi chips alignment.",
   "apkUrl": "https://raw.githubusercontent.com/Kairesh/DMT-Apk/main/DelhiMetroTracker.apk",
   "githubRepo": "https://github.com/Kairesh/DMT-Apk"
 }
