@@ -1,6 +1,6 @@
 # Delhi Routes - Official APK Release Channel (Metro & DTC Bus)
 
-[![Release](https://img.shields.io/badge/Release-v1.4.3-blue.svg)](https://github.com/Kairesh/DMT-Apk)
+[![Release](https://img.shields.io/badge/Release-v1.4.4-blue.svg)](https://github.com/Kairesh/DMT-Apk)
 [![Size](https://img.shields.io/badge/Size-5.49%20MB-success.svg)](https://github.com/Kairesh/DMT-Apk/raw/main/DelhiMetroTracker.apk)
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/Kairesh/DMT-Apk)
 
@@ -16,11 +16,11 @@ Official direct download repository for **Delhi Routes** (Delhi Metro & DTC Bus 
 
 ## 📋 Latest Release Information
 
-- **Version:** `v1.4.3` (Code `20`)
+- **Version:** `v1.4.4` (Code `21`)
 - **Released:** `2026-10-01`
 - **Package:** `com.delhimetro.pulse`
 - **Release Notes:**
-  > v1.4.3: Resolved unhandled runtime initialization error that caused bottom navigation tabs and transit mode switchers to become unresponsive; restored full interactivity for Route, Live Radar, Stations Directory, Settings, and DTC Bus features with fail-safe handlers.
+  > v1.4.4: Perfected Light Mode with high-contrast text and clean M3 card styling; fixed Custom Color Spectrum row button overflow; ensured Google Blue (#1A73E8) AMOLED is the persistent default theme.
 
 ---
 
